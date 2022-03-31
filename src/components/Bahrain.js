@@ -2,29 +2,34 @@ import React, { useState, useEffect } from 'react'
 import { getDataFromApi } from '../data';
 
  function Bahrein() {
+
+  const [posts, setPosts] = useState([])
      
-
-
-    const bahreinRace =  getDataFromApi().then((result)=> result.stage.competitors)
-   
-
-   console.log(bahreinRace);
-   // let name = bahreinRace.stage.competitors[0].name;
-  //  let nationality = bahreinRace.stage.competitors[0].nationality;
-
-  //            console.log(bahreinRace.stage.competitors[0].name)
-
+  
+  useEffect(() => {
+    
+    getDataFromApi()
+    .then((result)=> result.stage.competitors)
+    .then((result) => {
+      console.log(result)
+      setPosts(result)
+    })
+    
+  
+    return () => {
+      
+    }
+  }, [])
+  
 
   return (
     <div>
 
-    <div> 
-    
+    <ul>
 
-     </div>
+      {posts.map(post => <li key={post.id}>{post.name}</li>)}
 
-    
-
+    </ul>
 
     </div>
   )
