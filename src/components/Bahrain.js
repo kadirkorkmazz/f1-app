@@ -27,7 +27,7 @@ import { getDataFromApi } from '../data';
 
     <ul>
 
-      {posts.map(post => <li key={post.id}>{post.name}</li>)}
+      {posts.map(post => <li key={post.id}>{post.name} / {post.team.name} -- Points: {post.result.points>0? post.result.points : "No points"} </li>)}
 
     </ul>
 

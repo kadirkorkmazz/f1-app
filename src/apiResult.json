@@ -1,0 +1,835 @@
+
+{
+    "generated_at": "2022-04-02T12:22:38+00:00",
+    "schema": "..\/..\/..\/schemas\/summary.json",
+    "stage": {
+        "id": "sr:stage:937185",
+        "description": "Bahrain Grand Prix 2022",
+        "scheduled": "2022-03-18T12:00:00+00:00",
+        "scheduled_end": "2022-03-20T17:00:00+00:00",
+        "type": "event",
+        "status": "Closed",
+        "single_event": false,
+        "venue": {
+            "id": "sr:venue:1013",
+            "name": "Bahrain International Circuit",
+            "city": "Sakhir",
+            "country": "Bahrain",
+            "coordinates": "26.031952,50.510502",
+            "country_code": "BHR",
+            "length": 5412,
+            "curves_left": 7,
+            "curves_right": 8,
+            "debut": 2004,
+            "laps": 57,
+            "url_official": "https:\/\/www.bahraingp.com\/"
+        },
+        "parents": [
+            {
+                "id": "sr:stage:937183",
+                "description": "Formula 1 2022",
+                "scheduled": "2022-03-18T12:00:00+00:00",
+                "scheduled_end": "2022-11-20T15:00:00+00:00",
+                "type": "season",
+                "single_event": false,
+                "parents": [
+                    {
+                        "id": "sr:stage:7668",
+                        "description": "Formula 1",
+                        "type": "sport",
+                        "single_event": false
+                    }
+                ]
+            }
+        ],
+        "stages": [
+            {
+                "id": "sr:stage:937187",
+                "description": "Practice 1",
+                "scheduled": "2022-03-18T12:00:00+00:00",
+                "scheduled_end": "2022-03-18T13:00:00+00:00",
+                "type": "practice",
+                "status": "Closed",
+                "single_event": false
+            },
+            {
+                "id": "sr:stage:937189",
+                "description": "Practice 2",
+                "scheduled": "2022-03-18T15:00:00+00:00",
+                "scheduled_end": "2022-03-18T16:00:00+00:00",
+                "type": "practice",
+                "status": "Closed",
+                "single_event": false
+            },
+            {
+                "id": "sr:stage:937191",
+                "description": "Practice 3",
+                "scheduled": "2022-03-19T12:00:00+00:00",
+                "scheduled_end": "2022-03-19T13:00:00+00:00",
+                "type": "practice",
+                "status": "Closed",
+                "single_event": false
+            },
+            {
+                "id": "sr:stage:937193",
+                "description": "Qualification",
+                "scheduled": "2022-03-19T15:00:00+00:00",
+                "scheduled_end": "2022-03-19T16:00:00+00:00",
+                "type": "qualifying",
+                "status": "Closed",
+                "air_temperature": 19,
+                "track_temperature": 24,
+                "humidity": 51,
+                "weather": "Sunny",
+                "single_event": false
+            },
+            {
+                "id": "sr:stage:937263",
+                "description": "Race",
+                "scheduled": "2022-03-20T15:00:00+00:00",
+                "scheduled_end": "2022-03-20T17:00:00+00:00",
+                "type": "race",
+                "status": "Closed",
+                "laps": 57,
+                "laps_completed": 57,
+                "air_temperature": 22,
+                "track_temperature": 26,
+                "humidity": 35,
+                "weather": "Sunny",
+                "substatus": "All laps completed",
+                "pit_open": true,
+                "single_event": false
+            }
+        ],
+        "competitors": [
+            {
+                "id": "sr:competitor:269471",
+                "name": "Leclerc, Charles",
+                "gender": "male",
+                "nationality": "Monaco",
+                "country_code": "MCO",
+                "team": {
+                    "id": "sr:competitor:4510",
+                    "name": "Ferrari",
+                    "gender": "male",
+                    "nationality": "Italy",
+                    "country_code": "ITA"
+                },
+                "result": {
+                    "points": 26,
+                    "position": 1,
+                    "car_number": 16
+                }
+            },
+            {
+                "id": "sr:competitor:189029",
+                "name": "Sainz Jr, Carlos",
+                "gender": "male",
+                "nationality": "Spain",
+                "country_code": "ESP",
+                "team": {
+                    "id": "sr:competitor:4510",
+                    "name": "Ferrari",
+                    "gender": "male",
+                    "nationality": "Italy",
+                    "country_code": "ITA"
+                },
+                "result": {
+                    "points": 18,
+                    "position": 2,
+                    "car_number": 55
+                }
+            },
+            {
+                "id": "sr:competitor:7135",
+                "name": "Hamilton, Lewis",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "team": {
+                    "id": "sr:competitor:41127",
+                    "name": "Mercedes",
+                    "gender": "male",
+                    "nationality": "Germany",
+                    "country_code": "DEU"
+                },
+                "result": {
+                    "points": 15,
+                    "position": 3,
+                    "car_number": 44
+                }
+            },
+            {
+                "id": "sr:competitor:391432",
+                "name": "Russell, George",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "team": {
+                    "id": "sr:competitor:41127",
+                    "name": "Mercedes",
+                    "gender": "male",
+                    "nationality": "Germany",
+                    "country_code": "DEU"
+                },
+                "result": {
+                    "points": 12,
+                    "position": 4,
+                    "car_number": 63
+                }
+            },
+            {
+                "id": "sr:competitor:135592",
+                "name": "Magnussen, Kevin",
+                "gender": "male",
+                "nationality": "Denmark",
+                "country_code": "DNK",
+                "team": {
+                    "id": "sr:competitor:242902",
+                    "name": "Haas F1 Team",
+                    "gender": "male",
+                    "nationality": "USA",
+                    "country_code": "USA"
+                },
+                "result": {
+                    "points": 10,
+                    "position": 5,
+                    "car_number": 20
+                }
+            },
+            {
+                "id": "sr:competitor:41600",
+                "name": "Bottas, Valtteri",
+                "gender": "male",
+                "nationality": "Finland",
+                "country_code": "FIN",
+                "team": {
+                    "id": "sr:competitor:4515",
+                    "name": "Alfa Romeo Racing",
+                    "gender": "male",
+                    "nationality": "Switzerland",
+                    "country_code": "CHE"
+                },
+                "result": {
+                    "points": 8,
+                    "position": 6,
+                    "car_number": 77
+                }
+            },
+            {
+                "id": "sr:competitor:184751",
+                "name": "Ocon, Esteban",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA",
+                "team": {
+                    "id": "sr:competitor:4512",
+                    "name": "Alpine F1 Team",
+                    "gender": "male",
+                    "nationality": "France",
+                    "country_code": "FRA"
+                },
+                "result": {
+                    "points": 6,
+                    "position": 7,
+                    "car_number": 31
+                }
+            },
+            {
+                "id": "sr:competitor:764646",
+                "name": "Tsunoda, Yuki",
+                "gender": "male",
+                "nationality": "Japan",
+                "country_code": "JPN",
+                "team": {
+                    "id": "sr:competitor:5771",
+                    "name": "Alphatauri",
+                    "gender": "male",
+                    "nationality": "Italy",
+                    "country_code": "ITA"
+                },
+                "result": {
+                    "points": 4,
+                    "position": 8,
+                    "car_number": 22
+                }
+            },
+            {
+                "id": "sr:competitor:4521",
+                "name": "Alonso, Fernando",
+                "gender": "male",
+                "nationality": "Spain",
+                "country_code": "ESP",
+                "team": {
+                    "id": "sr:competitor:4512",
+                    "name": "Alpine F1 Team",
+                    "gender": "male",
+                    "nationality": "France",
+                    "country_code": "FRA"
+                },
+                "result": {
+                    "points": 2,
+                    "position": 9,
+                    "car_number": 14
+                }
+            },
+            {
+                "id": "sr:competitor:811508",
+                "name": "Zhou, Guanyu",
+                "gender": "male",
+                "nationality": "China",
+                "country_code": "CHN",
+                "team": {
+                    "id": "sr:competitor:4515",
+                    "name": "Alfa Romeo Racing",
+                    "gender": "male",
+                    "nationality": "Switzerland",
+                    "country_code": "CHE"
+                },
+                "result": {
+                    "points": 1,
+                    "position": 10,
+                    "car_number": 24
+                }
+            },
+            {
+                "id": "sr:competitor:568799",
+                "name": "Schumacher, Mick",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU",
+                "team": {
+                    "id": "sr:competitor:242902",
+                    "name": "Haas F1 Team",
+                    "gender": "male",
+                    "nationality": "USA",
+                    "country_code": "USA"
+                },
+                "result": {
+                    "position": 11,
+                    "car_number": 47
+                }
+            },
+            {
+                "id": "sr:competitor:302866",
+                "name": "Stroll, Lance",
+                "gender": "male",
+                "nationality": "Canada",
+                "country_code": "CAN",
+                "team": {
+                    "id": "sr:competitor:496090",
+                    "name": "Aston Martin F1 Team",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 12,
+                    "car_number": 18
+                }
+            },
+            {
+                "id": "sr:competitor:522994",
+                "name": "Albon, Alexander",
+                "gender": "male",
+                "nationality": "Thailand",
+                "country_code": "THA",
+                "team": {
+                    "id": "sr:competitor:4511",
+                    "name": "Williams",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 13,
+                    "car_number": 23
+                }
+            },
+            {
+                "id": "sr:competitor:41603",
+                "name": "Ricciardo, Daniel",
+                "gender": "male",
+                "nationality": "Australia",
+                "country_code": "AUS",
+                "team": {
+                    "id": "sr:competitor:4514",
+                    "name": "McLaren",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 14,
+                    "car_number": 3
+                }
+            },
+            {
+                "id": "sr:competitor:495898",
+                "name": "Norris, Lando",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "team": {
+                    "id": "sr:competitor:4514",
+                    "name": "McLaren",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 15,
+                    "car_number": 4
+                }
+            },
+            {
+                "id": "sr:competitor:447677",
+                "name": "Latifi, Nicholas",
+                "gender": "male",
+                "nationality": "Canada",
+                "country_code": "CAN",
+                "team": {
+                    "id": "sr:competitor:4511",
+                    "name": "Williams",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 16,
+                    "car_number": 6
+                }
+            },
+            {
+                "id": "sr:competitor:39412",
+                "name": "Hulkenberg, Nico",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU",
+                "team": {
+                    "id": "sr:competitor:496090",
+                    "name": "Aston Martin F1 Team",
+                    "gender": "male",
+                    "nationality": "Great Britain",
+                    "country_code": "GBR"
+                },
+                "result": {
+                    "position": 17,
+                    "car_number": 27
+                }
+            },
+            {
+                "id": "sr:competitor:46337",
+                "name": "Perez, Sergio",
+                "gender": "male",
+                "nationality": "Mexico",
+                "country_code": "MEX",
+                "team": {
+                    "id": "sr:competitor:4978",
+                    "name": "Red Bull Racing",
+                    "gender": "male",
+                    "nationality": "Austria",
+                    "country_code": "AUT"
+                },
+                "result": {
+                    "position": 18,
+                    "car_number": 11
+                }
+            },
+            {
+                "id": "sr:competitor:178318",
+                "name": "Verstappen, Max",
+                "gender": "male",
+                "nationality": "Netherlands",
+                "country_code": "NLD",
+                "team": {
+                    "id": "sr:competitor:4978",
+                    "name": "Red Bull Racing",
+                    "gender": "male",
+                    "nationality": "Austria",
+                    "country_code": "AUT"
+                },
+                "result": {
+                    "position": 19,
+                    "car_number": 1
+                }
+            },
+            {
+                "id": "sr:competitor:381362",
+                "name": "Gasly, Pierre",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA",
+                "team": {
+                    "id": "sr:competitor:5771",
+                    "name": "Alphatauri",
+                    "gender": "male",
+                    "nationality": "Italy",
+                    "country_code": "ITA"
+                },
+                "result": {
+                    "position": 20,
+                    "car_number": 10
+                }
+            }
+        ],
+        "teams": [
+            {
+                "id": "sr:competitor:4510",
+                "name": "Ferrari",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA",
+                "result": {
+                    "points": 44,
+                    "position": 1
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:189029",
+                        "name": "Sainz Jr, Carlos",
+                        "gender": "male",
+                        "nationality": "Spain",
+                        "country_code": "ESP",
+                        "result": {
+                            "points": 18,
+                            "position": 2,
+                            "car_number": 55
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:269471",
+                        "name": "Leclerc, Charles",
+                        "gender": "male",
+                        "nationality": "Monaco",
+                        "country_code": "MCO",
+                        "result": {
+                            "points": 26,
+                            "position": 1,
+                            "car_number": 16
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:41127",
+                "name": "Mercedes",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU",
+                "result": {
+                    "points": 27,
+                    "position": 2
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:391432",
+                        "name": "Russell, George",
+                        "gender": "male",
+                        "nationality": "Great Britain",
+                        "country_code": "GBR",
+                        "result": {
+                            "points": 12,
+                            "position": 4,
+                            "car_number": 63
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:7135",
+                        "name": "Hamilton, Lewis",
+                        "gender": "male",
+                        "nationality": "Great Britain",
+                        "country_code": "GBR",
+                        "result": {
+                            "points": 15,
+                            "position": 3,
+                            "car_number": 44
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:242902",
+                "name": "Haas F1 Team",
+                "gender": "male",
+                "nationality": "USA",
+                "country_code": "USA",
+                "result": {
+                    "points": 10,
+                    "position": 3
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:135592",
+                        "name": "Magnussen, Kevin",
+                        "gender": "male",
+                        "nationality": "Denmark",
+                        "country_code": "DNK",
+                        "result": {
+                            "points": 10,
+                            "position": 5,
+                            "car_number": 20
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:568799",
+                        "name": "Schumacher, Mick",
+                        "gender": "male",
+                        "nationality": "Germany",
+                        "country_code": "DEU",
+                        "result": {
+                            "position": 11,
+                            "car_number": 47
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:4515",
+                "name": "Alfa Romeo Racing",
+                "gender": "male",
+                "nationality": "Switzerland",
+                "country_code": "CHE",
+                "result": {
+                    "points": 9,
+                    "position": 4
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:41600",
+                        "name": "Bottas, Valtteri",
+                        "gender": "male",
+                        "nationality": "Finland",
+                        "country_code": "FIN",
+                        "result": {
+                            "points": 8,
+                            "position": 6,
+                            "car_number": 77
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:811508",
+                        "name": "Zhou, Guanyu",
+                        "gender": "male",
+                        "nationality": "China",
+                        "country_code": "CHN",
+                        "result": {
+                            "points": 1,
+                            "position": 10,
+                            "car_number": 24
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:4512",
+                "name": "Alpine F1 Team",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA",
+                "result": {
+                    "points": 8,
+                    "position": 5
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:4521",
+                        "name": "Alonso, Fernando",
+                        "gender": "male",
+                        "nationality": "Spain",
+                        "country_code": "ESP",
+                        "result": {
+                            "points": 2,
+                            "position": 9,
+                            "car_number": 14
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:184751",
+                        "name": "Ocon, Esteban",
+                        "gender": "male",
+                        "nationality": "France",
+                        "country_code": "FRA",
+                        "result": {
+                            "points": 6,
+                            "position": 7,
+                            "car_number": 31
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:5771",
+                "name": "Alphatauri",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA",
+                "result": {
+                    "points": 4,
+                    "position": 6
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:381362",
+                        "name": "Gasly, Pierre",
+                        "gender": "male",
+                        "nationality": "France",
+                        "country_code": "FRA",
+                        "result": {
+                            "position": 20,
+                            "car_number": 10
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:764646",
+                        "name": "Tsunoda, Yuki",
+                        "gender": "male",
+                        "nationality": "Japan",
+                        "country_code": "JPN",
+                        "result": {
+                            "points": 4,
+                            "position": 8,
+                            "car_number": 22
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:496090",
+                "name": "Aston Martin F1 Team",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "position": 7
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:39412",
+                        "name": "Hulkenberg, Nico",
+                        "gender": "male",
+                        "nationality": "Germany",
+                        "country_code": "DEU",
+                        "result": {
+                            "position": 17,
+                            "car_number": 27
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:302866",
+                        "name": "Stroll, Lance",
+                        "gender": "male",
+                        "nationality": "Canada",
+                        "country_code": "CAN",
+                        "result": {
+                            "position": 12,
+                            "car_number": 18
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:4511",
+                "name": "Williams",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "position": 8
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:522994",
+                        "name": "Albon, Alexander",
+                        "gender": "male",
+                        "nationality": "Thailand",
+                        "country_code": "THA",
+                        "result": {
+                            "position": 13,
+                            "car_number": 23
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:447677",
+                        "name": "Latifi, Nicholas",
+                        "gender": "male",
+                        "nationality": "Canada",
+                        "country_code": "CAN",
+                        "result": {
+                            "position": 16,
+                            "car_number": 6
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:4514",
+                "name": "McLaren",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "position": 9
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:41603",
+                        "name": "Ricciardo, Daniel",
+                        "gender": "male",
+                        "nationality": "Australia",
+                        "country_code": "AUS",
+                        "result": {
+                            "position": 14,
+                            "car_number": 3
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:495898",
+                        "name": "Norris, Lando",
+                        "gender": "male",
+                        "nationality": "Great Britain",
+                        "country_code": "GBR",
+                        "result": {
+                            "position": 15,
+                            "car_number": 4
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "sr:competitor:4978",
+                "name": "Red Bull Racing",
+                "gender": "male",
+                "nationality": "Austria",
+                "country_code": "AUT",
+                "result": {
+                    "position": 10
+                },
+                "competitors": [
+                    {
+                        "id": "sr:competitor:178318",
+                        "name": "Verstappen, Max",
+                        "gender": "male",
+                        "nationality": "Netherlands",
+                        "country_code": "NLD",
+                        "result": {
+                            "position": 19,
+                            "car_number": 1
+                        }
+                    },
+                    {
+                        "id": "sr:competitor:46337",
+                        "name": "Perez, Sergio",
+                        "gender": "male",
+                        "nationality": "Mexico",
+                        "country_code": "MEX",
+                        "result": {
+                            "position": 18,
+                            "car_number": 11
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
