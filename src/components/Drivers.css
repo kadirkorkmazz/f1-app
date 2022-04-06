@@ -1,0 +1,63 @@
+
+#driverCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+   justify-content: center;
+}
+
+.card{
+    width: 16rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color:  #E03102;
+    color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+    min-height: 250px;
+    max-width: 250px;
+    align-items:center;
+    justify-content: space-between;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    box-shadow: 3px 3px white;
+    font-size: 1.25em;
+}
+
+.card-img-top{
+    width: 10rem;
+    padding-bottom: 13px;
+}
+
+.card-body{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+
+}
+
+p.card-text{
+    text-align: center;
+    
+}
+
+.card-title{
+    text-align: center;
+}
+
+.driverPage, h1{
+    text-align: center;
+    color: #E03102;
+    text-shadow: 0.5px 0.5px white;}
+
+#driverNumber{
+    position: absolute;
+    left: 15px;
+    top: -15px;
+    font-size: 1.5em;
+    font-style:italic;
+    font-weight: bold;
+    color: whitesmoke;
+}
