@@ -1,9 +1,9 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
 import { useState, useEffect} from 'react'
-import apiResult from '../apiResult.json'
 //import { getDataFromApi } from '../data'
-import dImages from '../driverImages.json'
+import driverImages from '../imagesDatabase.json'
+import standingsApiResult from "../standingsApiResult.json"
 import './Drivers.css'
 
 function Drivers() {
@@ -20,8 +20,8 @@ function Drivers() {
         })
         */
         
-        setDrivers(apiResult.stage.competitors)
-        console.log(apiResult.stage.competitors)
+        setDrivers(standingsApiResult.stage.competitors)
+        console.log(standingsApiResult.stage.competitors)
         return () => {
         }
       }, [])
@@ -38,11 +38,13 @@ function Drivers() {
     
     <Card key={driver.id} >
     <Card.Text id='driverNumber'> {driver.result.car_number}   </Card.Text>
-  <Card.Img variant="top" src={dImages.images.find(x => x.id === driver.id).imageUrl}/>
+  <Card.Img variant="top" src={driverImages.drivers.find(x => x.id === driver.id).imageUrl}/>
   <Card.Body>
     <Card.Title  >{driver.name}</Card.Title>
     <Card.Text> {driver.team.name}  </Card.Text>
     <Card.Text> {driver.nationality}  </Card.Text>
+    <Card.Text> {driver.result.points>0? "Points: " + driver.result.points : "No Points"} </Card.Text>
+
 
   </Card.Body>
 </Card>

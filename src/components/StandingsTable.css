@@ -1,0 +1,34 @@
+.teamStandings{
+    position: relative;
+    display: flex;
+   justify-content: center;
+    margin-top: 50px;
+    align-content: stretch;
+}
+   
+
+Table{
+    background-color: white;
+}
+
+
+tr{
+    
+    background-color: red;
+    color: black;
+    font-size: 1.75em;
+
+}
+
+td{
+    background-color: whitesmoke;
+    height: 20px;
+    font-size: 1.25em;
+    padding: 15px;
+    text-align: center;
+}
+
+td:nth-child(1){
+    background-color: red;
+    color: black;
+}

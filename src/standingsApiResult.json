@@ -1,0 +1,1305 @@
+{
+    "generated_at": "2022-04-06T20:31:07+00:00",
+    "schema": "..\/..\/..\/schemas\/summary.json",
+    "stage": {
+        "id": "sr:stage:937183",
+        "description": "Formula 1 2022",
+        "scheduled": "2022-03-18T12:00:00+00:00",
+        "scheduled_end": "2022-11-20T15:00:00+00:00",
+        "type": "season",
+        "single_event": false,
+        "parents": [{
+            "id": "sr:stage:7668",
+            "description": "Formula 1",
+            "type": "sport",
+            "single_event": false
+        }],
+        "stages": [{
+            "id": "sr:stage:937185",
+            "description": "Bahrain Grand Prix 2022",
+            "scheduled": "2022-03-18T12:00:00+00:00",
+            "scheduled_end": "2022-03-20T17:00:00+00:00",
+            "type": "event",
+            "status": "Closed",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1013",
+                "name": "Bahrain International Circuit",
+                "city": "Sakhir",
+                "country": "Bahrain",
+                "coordinates": "26.031952,50.510502",
+                "country_code": "BHR",
+                "length": 5412,
+                "curves_left": 7,
+                "curves_right": 8,
+                "debut": 2004,
+                "laps": 57,
+                "url_official": "https:\/\/www.bahraingp.com\/"
+            }
+        }, {
+            "id": "sr:stage:937465",
+            "description": "Saudi Arabian Grand Prix 2022",
+            "scheduled": "2022-03-25T14:00:00+00:00",
+            "scheduled_end": "2022-03-27T19:00:00+00:00",
+            "type": "event",
+            "status": "Closed",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:56780",
+                "name": "Jeddah Corniche Street Circuit",
+                "city": "Jeddah",
+                "country": "Saudi Arabia",
+                "country_code": "SAU",
+                "laps": 0,
+                "length": 6175
+            }
+        }, {
+            "id": "sr:stage:937745",
+            "description": "Australian Grand Prix 2022",
+            "scheduled": "2022-04-08T03:00:00+00:00",
+            "scheduled_end": "2022-04-10T07:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1011",
+                "name": "Melbourne Grand Prix Circuit",
+                "city": "Melbourne",
+                "country": "Australia",
+                "coordinates": "-37.840089,144.953527",
+                "country_code": "AUS",
+                "length": 5303,
+                "url_official": "http:\/\/www.grandprix.com.au",
+                "debut": 1996,
+                "curves_left": 6,
+                "curves_right": 10,
+                "laps": 58
+            }
+        }, {
+            "id": "sr:stage:938025",
+            "description": "Imola Grand Prix 2022",
+            "scheduled": "2022-04-22T11:00:00+00:00",
+            "scheduled_end": "2022-04-24T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:11671",
+                "name": "Autodromo Enzo e Dino Ferrari",
+                "city": "Imola",
+                "country": "Italy",
+                "coordinates": "44.3440738,11.7143509",
+                "country_code": "ITA",
+                "length": 4909,
+                "curves_right": 8,
+                "curves_left": 9,
+                "laps": 63,
+                "url_official": "http:\/\/www.autodromoimola.it\/",
+                "debut": 1980
+            }
+        }, {
+            "id": "sr:stage:938305",
+            "description": "Miami Grand Prix 2022",
+            "scheduled": "2022-05-06T18:30:00+00:00",
+            "scheduled_end": "2022-05-08T21:30:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:61177",
+                "name": "Miami International Autodrome",
+                "city": "Miami",
+                "country": "USA",
+                "coordinates": "25.958056,-80.238889",
+                "country_code": "USA",
+                "debut": 2022,
+                "length": 5410
+            }
+        }, {
+            "id": "sr:stage:938585",
+            "description": "Gran Premio de Espana 2022",
+            "scheduled": "2022-05-20T12:00:00+00:00",
+            "scheduled_end": "2022-05-22T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1014",
+                "name": "Circuit de Catalunya",
+                "city": "Barcelona",
+                "country": "Spain",
+                "coordinates": "41.569866,2.258034",
+                "country_code": "ESP",
+                "debut": 1991,
+                "length": 4655,
+                "curves_left": 7,
+                "curves_right": 9,
+                "laps": 66,
+                "url_official": "https:\/\/www.circuitcat.com\/es\/formula-1\/"
+            }
+        }, {
+            "id": "sr:stage:938865",
+            "description": "Grand Prix de Monaco 2022",
+            "scheduled": "2022-05-27T12:00:00+00:00",
+            "scheduled_end": "2022-05-29T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1016",
+                "name": "Circuit de Monaco",
+                "city": "Monte Carlo",
+                "country": "Monaco",
+                "coordinates": "43.734722,7.420556",
+                "country_code": "MCO",
+                "length": 3337,
+                "curves_left": 7,
+                "curves_right": 12,
+                "laps": 78,
+                "url_official": "http:\/\/www.grand-prix-monaco.com\/formula1monaco\/",
+                "debut": 1950
+            }
+        }, {
+            "id": "sr:stage:939145",
+            "description": "Azerbaijan Grand Prix 2022",
+            "scheduled": "2022-06-10T11:00:00+00:00",
+            "scheduled_end": "2022-06-12T13:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:17764",
+                "name": "Baku City Circuit",
+                "city": "Baku",
+                "country": "Azerbaijan",
+                "country_code": "AZE",
+                "curves_left": 12,
+                "curves_right": 8,
+                "url_official": "https:\/\/www.bakucitycircuit.com",
+                "debut": 2016,
+                "length": 6003,
+                "laps": 51
+            }
+        }, {
+            "id": "sr:stage:939425",
+            "description": "Grand Prix du Canada 2022",
+            "scheduled": "2022-06-17T18:00:00+00:00",
+            "scheduled_end": "2022-06-19T20:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1017",
+                "name": "Circuit Gilles Villeneuve",
+                "city": "Montreal",
+                "country": "Canada",
+                "coordinates": "45.503299,-73.526369",
+                "country_code": "CAN",
+                "debut": 1978,
+                "length": 4361,
+                "curves_left": 6,
+                "laps": 70,
+                "url_official": "https:\/\/www.gpcanada.ca\/",
+                "curves_right": 8
+            }
+        }, {
+            "id": "sr:stage:939705",
+            "description": "British Grand Prix 2022",
+            "scheduled": "2022-07-01T12:00:00+00:00",
+            "scheduled_end": "2022-07-03T16:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1019",
+                "name": "Silverstone Circuit",
+                "city": "Silverstone",
+                "country": "England",
+                "coordinates": "52.078346,-1.023273",
+                "country_code": "ENG",
+                "debut": 1950,
+                "curves_right": 10,
+                "laps": 52,
+                "url_official": "http:\/\/www.silverstone.co.uk\/",
+                "length": 5891,
+                "curves_left": 8
+            }
+        }, {
+            "id": "sr:stage:939985",
+            "description": "Grosser Preis von Osterreich 2022",
+            "scheduled": "2022-07-08T12:00:00+00:00",
+            "scheduled_end": "2022-07-10T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:2351",
+                "name": "Red Bull Ring",
+                "city": "Spielberg",
+                "country": "Austria",
+                "country_code": "AUT",
+                "laps": 71,
+                "curves_left": 3,
+                "curves_right": 7,
+                "debut": 1970,
+                "length": 4318,
+                "url_official": "http:\/\/www.projekt-spielberg.com"
+            }
+        }, {
+            "id": "sr:stage:940265",
+            "description": "Grand Prix de France 2022",
+            "scheduled": "2022-07-22T12:00:00+00:00",
+            "scheduled_end": "2022-07-24T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:26305",
+                "name": "Circuit Paul Ricard",
+                "city": "Le Castellet",
+                "country": "France",
+                "country_code": "FRA",
+                "curves_left": 6,
+                "curves_right": 9,
+                "debut": 1971,
+                "url_official": "http:\/\/www.circuitpaulricard.com\/en\/",
+                "length": 5842,
+                "laps": 53
+            }
+        }, {
+            "id": "sr:stage:940545",
+            "description": "Magyar Nagydij 2022",
+            "scheduled": "2022-07-29T12:00:00+00:00",
+            "scheduled_end": "2022-07-31T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1021",
+                "name": "Hungaroring",
+                "city": "Budapest",
+                "country": "Hungary",
+                "coordinates": "47.579768,19.247789",
+                "country_code": "HUN",
+                "debut": 1986,
+                "length": 4381,
+                "curves_left": 6,
+                "curves_right": 8,
+                "url_official": "https:\/\/hungaroring.hu\/en\/",
+                "laps": 70
+            }
+        }, {
+            "id": "sr:stage:940825",
+            "description": "Belgian Grand Prix 2022",
+            "scheduled": "2022-08-26T12:00:00+00:00",
+            "scheduled_end": "2022-08-28T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1023",
+                "name": "Circuit de Spa-Francorchamps",
+                "city": "Spa-Francorchamps",
+                "country": "Belgium",
+                "coordinates": "50.44395,5.968666",
+                "country_code": "BEL",
+                "debut": 1950,
+                "url_official": "http:\/\/www.spa-francorchamps.be\/en",
+                "curves_left": 10,
+                "curves_right": 9,
+                "length": 7004,
+                "laps": 44
+            }
+        }, {
+            "id": "sr:stage:941105",
+            "description": "Dutch Grand Prix 2022",
+            "scheduled": "2022-09-02T12:00:00+00:00",
+            "scheduled_end": "2022-09-04T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:51501",
+                "name": "Circuit Zandvoort",
+                "city": "Zandvoort",
+                "country": "Netherlands",
+                "coordinates": "52.388819,4.540922",
+                "country_code": "NLD",
+                "curves_right": 10,
+                "laps": 72,
+                "curves_left": 4,
+                "debut": 1952,
+                "url_official": "https:\/\/www.circuitzandvoort.nl\/en\/",
+                "length": 4252
+            }
+        }, {
+            "id": "sr:stage:941385",
+            "description": "Gran Premio D Italia 2022",
+            "scheduled": "2022-09-09T12:00:00+00:00",
+            "scheduled_end": "2022-09-11T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1024",
+                "name": "Autodromo Nazionale Monza",
+                "city": "Monza",
+                "country": "Italy",
+                "coordinates": "45.615899,9.279499",
+                "country_code": "ITA",
+                "debut": 1950,
+                "length": 5793,
+                "curves_left": 4,
+                "curves_right": 7,
+                "laps": 53,
+                "url_official": "http:\/\/www.monzanet.it\/"
+            }
+        }, {
+            "id": "sr:stage:941665",
+            "description": "Russian Grand Prix 2022",
+            "scheduled": "2022-09-23T10:00:00+00:00",
+            "scheduled_end": "2022-09-25T13:00:00+00:00",
+            "type": "event",
+            "status": "Cancelled",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:13438",
+                "name": "Sochi International Street Circuit",
+                "city": "Sochi",
+                "country": "Russia",
+                "coordinates": "43.405687,39.957778",
+                "country_code": "RUS",
+                "curves_right": 12,
+                "debut": 2014,
+                "url_official": "http:\/\/sochiautodrom.ru\/en",
+                "laps": 53,
+                "length": 5848,
+                "curves_left": 6
+            }
+        }, {
+            "id": "sr:stage:941945",
+            "description": "Singapore Grand Prix 2022",
+            "scheduled": "2022-09-30T10:00:00+00:00",
+            "scheduled_end": "2022-10-02T14:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1025",
+                "name": "Singapore Street Circuit",
+                "city": "Singapore City",
+                "country": "Singapore",
+                "coordinates": "1.29087,103.864145",
+                "country_code": "SGP",
+                "debut": 2008,
+                "curves_left": 14,
+                "curves_right": 9,
+                "laps": 61,
+                "url_official": "http:\/\/www.singaporegp.sg\/",
+                "length": 5063
+            }
+        }, {
+            "id": "sr:stage:942225",
+            "description": "Japanese Grand Prix 2022",
+            "scheduled": "2022-10-07T04:00:00+00:00",
+            "scheduled_end": "2022-10-09T07:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1524",
+                "name": "Suzuka International Racing Course",
+                "city": "Suzuka",
+                "country": "Japan",
+                "coordinates": "34.844522,136.538515",
+                "country_code": "JPN",
+                "curves_left": 8,
+                "curves_right": 10,
+                "length": 5807,
+                "debut": 1987,
+                "laps": 53,
+                "url_official": "http:\/\/www.suzukacircuit.jp\/en\/"
+            }
+        }, {
+            "id": "sr:stage:942505",
+            "description": "United States Grand Prix 2022",
+            "scheduled": "2022-10-21T19:00:00+00:00",
+            "scheduled_end": "2022-10-23T21:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:2940",
+                "name": "Circuit of The Americas",
+                "city": "Austin",
+                "country": "USA",
+                "coordinates": "30.132778,-97.641111",
+                "country_code": "USA",
+                "curves_right": 9,
+                "url_official": "http:\/\/circuitoftheamericas.com\/",
+                "laps": 56,
+                "length": 5513,
+                "curves_left": 11,
+                "debut": 2012
+            }
+        }, {
+            "id": "sr:stage:942785",
+            "description": "Gran Premio de Mexico 2022",
+            "scheduled": "2022-10-28T18:00:00+00:00",
+            "scheduled_end": "2022-10-30T21:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:15584",
+                "name": "Autodromo Hermanos Rodriguez",
+                "city": "Mexico City",
+                "country": "Mexico",
+                "country_code": "MEX",
+                "curves_left": 7,
+                "url_official": "http:\/\/www.ahr.mx\/",
+                "laps": 71,
+                "debut": 1963,
+                "length": 4304,
+                "curves_right": 10
+            }
+        }, {
+            "id": "sr:stage:943065",
+            "description": "Grande Premio do Brasil 2022",
+            "scheduled": "2022-11-11T16:00:00+00:00",
+            "scheduled_end": "2022-11-13T20:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1028",
+                "name": "Aut\u00f3dromo Jos\u00e9 Carlos Pace",
+                "city": "Sao Paulo",
+                "country": "Brazil",
+                "coordinates": "-23.702753,-46.698911",
+                "country_code": "BRA",
+                "debut": 1973,
+                "length": 4309,
+                "curves_left": 10,
+                "curves_right": 5,
+                "laps": 71,
+                "url_official": "http:\/\/www.autodromodeinterlagos.com.br\/wp1\/?lang=en"
+            }
+        }, {
+            "id": "sr:stage:943345",
+            "description": "Abu Dhabi Grand Prix 2022",
+            "scheduled": "2022-11-18T09:30:00+00:00",
+            "scheduled_end": "2022-11-20T15:00:00+00:00",
+            "type": "event",
+            "status": "Not started",
+            "single_event": false,
+            "venue": {
+                "id": "sr:venue:1525",
+                "name": "Yas Marina Circuit",
+                "city": "Abu Dhabi",
+                "country": "United Arab Emirates",
+                "coordinates": "24.469885,54.605484",
+                "country_code": "ARE",
+                "curves_left": 12,
+                "curves_right": 9,
+                "debut": 2009,
+                "laps": 55,
+                "url_official": "https:\/\/www.yasmarinacircuit.com\/en",
+                "length": 5554
+            }
+        }],
+        "competitors": [{
+            "id": "sr:competitor:269471",
+            "name": "Leclerc, Charles",
+            "gender": "male",
+            "nationality": "Monaco",
+            "country_code": "MCO",
+            "team": {
+                "id": "sr:competitor:4510",
+                "name": "Ferrari",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA"
+            },
+            "result": {
+                "points": 45,
+                "car_number": 16,
+                "position": 1,
+                "victories": 1,
+                "races": 2,
+                "races_with_points": 2,
+                "polepositions": 1,
+                "podiums": 2,
+                "fastest_laps": 2,
+                "victory_pole_and_fastest_lap": 1
+            }
+        }, {
+            "id": "sr:competitor:189029",
+            "name": "Sainz Jr, Carlos",
+            "gender": "male",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "team": {
+                "id": "sr:competitor:4510",
+                "name": "Ferrari",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA"
+            },
+            "result": {
+                "points": 33,
+                "car_number": 55,
+                "position": 2,
+                "races": 2,
+                "races_with_points": 2,
+                "podiums": 2
+            }
+        }, {
+            "id": "sr:competitor:178318",
+            "name": "Verstappen, Max",
+            "gender": "male",
+            "nationality": "Netherlands",
+            "country_code": "NLD",
+            "team": {
+                "id": "sr:competitor:4978",
+                "name": "Red Bull Racing",
+                "gender": "male",
+                "nationality": "Austria",
+                "country_code": "AUT"
+            },
+            "result": {
+                "points": 25,
+                "car_number": 1,
+                "position": 3,
+                "victories": 1,
+                "races": 2,
+                "races_with_points": 2,
+                "podiums": 1
+            }
+        }, {
+            "id": "sr:competitor:391432",
+            "name": "Russell, George",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "team": {
+                "id": "sr:competitor:41127",
+                "name": "Mercedes",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU"
+            },
+            "result": {
+                "points": 22,
+                "car_number": 63,
+                "position": 4,
+                "races": 2,
+                "races_with_points": 2
+            }
+        }, {
+            "id": "sr:competitor:7135",
+            "name": "Hamilton, Lewis",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "team": {
+                "id": "sr:competitor:41127",
+                "name": "Mercedes",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU"
+            },
+            "result": {
+                "points": 16,
+                "car_number": 44,
+                "position": 5,
+                "races": 2,
+                "races_with_points": 2,
+                "podiums": 1
+            }
+        }, {
+            "id": "sr:competitor:184751",
+            "name": "Ocon, Esteban",
+            "gender": "male",
+            "nationality": "France",
+            "country_code": "FRA",
+            "team": {
+                "id": "sr:competitor:4512",
+                "name": "Alpine F1 Team",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA"
+            },
+            "result": {
+                "points": 14,
+                "car_number": 31,
+                "position": 6,
+                "races": 2,
+                "races_with_points": 2
+            }
+        }, {
+            "id": "sr:competitor:46337",
+            "name": "Perez, Sergio",
+            "gender": "male",
+            "nationality": "Mexico",
+            "country_code": "MEX",
+            "team": {
+                "id": "sr:competitor:4978",
+                "name": "Red Bull Racing",
+                "gender": "male",
+                "nationality": "Austria",
+                "country_code": "AUT"
+            },
+            "result": {
+                "points": 12,
+                "car_number": 11,
+                "position": 7,
+                "races": 2,
+                "races_with_points": 2,
+                "polepositions": 1
+            }
+        }, {
+            "id": "sr:competitor:135592",
+            "name": "Magnussen, Kevin",
+            "gender": "male",
+            "nationality": "Denmark",
+            "country_code": "DNK",
+            "team": {
+                "id": "sr:competitor:242902",
+                "name": "Haas F1 Team",
+                "gender": "male",
+                "nationality": "USA",
+                "country_code": "USA"
+            },
+            "result": {
+                "points": 12,
+                "car_number": 20,
+                "position": 8,
+                "races": 2,
+                "races_with_points": 2
+            }
+        }, {
+            "id": "sr:competitor:41600",
+            "name": "Bottas, Valtteri",
+            "gender": "male",
+            "nationality": "Finland",
+            "country_code": "FIN",
+            "team": {
+                "id": "sr:competitor:4515",
+                "name": "Alfa Romeo Racing",
+                "gender": "male",
+                "nationality": "Switzerland",
+                "country_code": "CHE"
+            },
+            "result": {
+                "points": 8,
+                "car_number": 77,
+                "position": 9,
+                "races": 2,
+                "races_with_points": 1
+            }
+        }, {
+            "id": "sr:competitor:495898",
+            "name": "Norris, Lando",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "team": {
+                "id": "sr:competitor:4514",
+                "name": "McLaren",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "points": 6,
+                "car_number": 4,
+                "position": 10,
+                "races": 2,
+                "races_with_points": 2
+            }
+        }, {
+            "id": "sr:competitor:764646",
+            "name": "Tsunoda, Yuki",
+            "gender": "male",
+            "nationality": "Japan",
+            "country_code": "JPN",
+            "team": {
+                "id": "sr:competitor:5771",
+                "name": "Alphatauri",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA"
+            },
+            "result": {
+                "points": 4,
+                "car_number": 22,
+                "position": 11,
+                "races": 1,
+                "races_with_points": 1
+            }
+        }, {
+            "id": "sr:competitor:381362",
+            "name": "Gasly, Pierre",
+            "gender": "male",
+            "nationality": "France",
+            "country_code": "FRA",
+            "team": {
+                "id": "sr:competitor:5771",
+                "name": "Alphatauri",
+                "gender": "male",
+                "nationality": "Italy",
+                "country_code": "ITA"
+            },
+            "result": {
+                "points": 4,
+                "car_number": 10,
+                "position": 11,
+                "races": 2,
+                "races_with_points": 2
+            }
+        }, {
+            "id": "sr:competitor:4521",
+            "name": "Alonso, Fernando",
+            "gender": "male",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "team": {
+                "id": "sr:competitor:4512",
+                "name": "Alpine F1 Team",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA"
+            },
+            "result": {
+                "points": 2,
+                "car_number": 14,
+                "position": 13,
+                "races": 2,
+                "races_with_points": 1
+            }
+        }, {
+            "id": "sr:competitor:811508",
+            "name": "Zhou, Guanyu",
+            "gender": "male",
+            "nationality": "China",
+            "country_code": "CHN",
+            "team": {
+                "id": "sr:competitor:4515",
+                "name": "Alfa Romeo Racing",
+                "gender": "male",
+                "nationality": "Switzerland",
+                "country_code": "CHE"
+            },
+            "result": {
+                "points": 1,
+                "car_number": 24,
+                "position": 14,
+                "races": 2,
+                "races_with_points": 1
+            }
+        }, {
+            "id": "sr:competitor:568799",
+            "name": "Schumacher, Mick",
+            "gender": "male",
+            "nationality": "Germany",
+            "country_code": "DEU",
+            "team": {
+                "id": "sr:competitor:242902",
+                "name": "Haas F1 Team",
+                "gender": "male",
+                "nationality": "USA",
+                "country_code": "USA"
+            },
+            "result": {
+                "car_number": 47,
+                "position": 15,
+                "races": 1
+            }
+        }, {
+            "id": "sr:competitor:302866",
+            "name": "Stroll, Lance",
+            "gender": "male",
+            "nationality": "Canada",
+            "country_code": "CAN",
+            "team": {
+                "id": "sr:competitor:496090",
+                "name": "Aston Martin F1 Team",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "car_number": 18,
+                "position": 16,
+                "races": 2
+            }
+        }, {
+            "id": "sr:competitor:39412",
+            "name": "Hulkenberg, Nico",
+            "gender": "male",
+            "nationality": "Germany",
+            "country_code": "DEU",
+            "team": {
+                "id": "sr:competitor:496090",
+                "name": "Aston Martin F1 Team",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "car_number": 27,
+                "position": 17,
+                "races": 2
+            }
+        }, {
+            "id": "sr:competitor:522994",
+            "name": "Albon, Alexander",
+            "gender": "male",
+            "nationality": "Thailand",
+            "country_code": "THA",
+            "team": {
+                "id": "sr:competitor:4511",
+                "name": "Williams",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "car_number": 23,
+                "position": 18,
+                "races": 2
+            }
+        }, {
+            "id": "sr:competitor:41603",
+            "name": "Ricciardo, Daniel",
+            "gender": "male",
+            "nationality": "Australia",
+            "country_code": "AUS",
+            "team": {
+                "id": "sr:competitor:4514",
+                "name": "McLaren",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "car_number": 3,
+                "position": 19,
+                "races": 2
+            }
+        }, {
+            "id": "sr:competitor:447677",
+            "name": "Latifi, Nicholas",
+            "gender": "male",
+            "nationality": "Canada",
+            "country_code": "CAN",
+            "team": {
+                "id": "sr:competitor:4511",
+                "name": "Williams",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR"
+            },
+            "result": {
+                "car_number": 6,
+                "position": 20,
+                "races": 2
+            }
+        }],
+        "teams": [{
+            "id": "sr:competitor:4510",
+            "name": "Ferrari",
+            "gender": "male",
+            "nationality": "Italy",
+            "country_code": "ITA",
+            "result": {
+                "points": 78,
+                "position": 1,
+                "victories": 1,
+                "races": 2,
+                "races_with_points": 2,
+                "polepositions": 1,
+                "podiums": 4,
+                "fastest_laps": 2,
+                "victory_pole_and_fastest_lap": 1
+            },
+            "competitors": [{
+                "id": "sr:competitor:189029",
+                "name": "Sainz Jr, Carlos",
+                "gender": "male",
+                "nationality": "Spain",
+                "country_code": "ESP",
+                "result": {
+                    "points": 33,
+                    "car_number": 55,
+                    "position": 2,
+                    "races": 2,
+                    "races_with_points": 2,
+                    "podiums": 2
+                }
+            }, {
+                "id": "sr:competitor:269471",
+                "name": "Leclerc, Charles",
+                "gender": "male",
+                "nationality": "Monaco",
+                "country_code": "MCO",
+                "result": {
+                    "points": 45,
+                    "car_number": 16,
+                    "position": 1,
+                    "victories": 1,
+                    "races": 2,
+                    "races_with_points": 2,
+                    "polepositions": 1,
+                    "podiums": 2,
+                    "fastest_laps": 2,
+                    "victory_pole_and_fastest_lap": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:41127",
+            "name": "Mercedes",
+            "gender": "male",
+            "nationality": "Germany",
+            "country_code": "DEU",
+            "result": {
+                "points": 38,
+                "position": 2,
+                "races": 2,
+                "races_with_points": 2,
+                "podiums": 1
+            },
+            "competitors": [{
+                "id": "sr:competitor:391432",
+                "name": "Russell, George",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "points": 22,
+                    "car_number": 63,
+                    "position": 4,
+                    "races": 2,
+                    "races_with_points": 2
+                }
+            }, {
+                "id": "sr:competitor:7135",
+                "name": "Hamilton, Lewis",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "points": 16,
+                    "car_number": 44,
+                    "position": 5,
+                    "races": 2,
+                    "races_with_points": 2,
+                    "podiums": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:4978",
+            "name": "Red Bull Racing",
+            "gender": "male",
+            "nationality": "Austria",
+            "country_code": "AUT",
+            "result": {
+                "points": 37,
+                "position": 3,
+                "victories": 1,
+                "races": 2,
+                "races_with_points": 2,
+                "polepositions": 1,
+                "podiums": 1
+            },
+            "competitors": [{
+                "id": "sr:competitor:178318",
+                "name": "Verstappen, Max",
+                "gender": "male",
+                "nationality": "Netherlands",
+                "country_code": "NLD",
+                "result": {
+                    "points": 25,
+                    "car_number": 1,
+                    "position": 3,
+                    "victories": 1,
+                    "races": 2,
+                    "races_with_points": 2,
+                    "podiums": 1
+                }
+            }, {
+                "id": "sr:competitor:46337",
+                "name": "Perez, Sergio",
+                "gender": "male",
+                "nationality": "Mexico",
+                "country_code": "MEX",
+                "result": {
+                    "points": 12,
+                    "car_number": 11,
+                    "position": 7,
+                    "races": 2,
+                    "races_with_points": 2,
+                    "polepositions": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:4512",
+            "name": "Alpine F1 Team",
+            "gender": "male",
+            "nationality": "France",
+            "country_code": "FRA",
+            "result": {
+                "points": 16,
+                "position": 4,
+                "races": 2,
+                "races_with_points": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:4521",
+                "name": "Alonso, Fernando",
+                "gender": "male",
+                "nationality": "Spain",
+                "country_code": "ESP",
+                "result": {
+                    "points": 2,
+                    "car_number": 14,
+                    "position": 13,
+                    "races": 2,
+                    "races_with_points": 1
+                }
+            }, {
+                "id": "sr:competitor:184751",
+                "name": "Ocon, Esteban",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA",
+                "result": {
+                    "points": 14,
+                    "car_number": 31,
+                    "position": 6,
+                    "races": 2,
+                    "races_with_points": 2
+                }
+            }]
+        }, {
+            "id": "sr:competitor:242902",
+            "name": "Haas F1 Team",
+            "gender": "male",
+            "nationality": "USA",
+            "country_code": "USA",
+            "result": {
+                "points": 12,
+                "position": 5,
+                "races": 2,
+                "races_with_points": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:135592",
+                "name": "Magnussen, Kevin",
+                "gender": "male",
+                "nationality": "Denmark",
+                "country_code": "DNK",
+                "result": {
+                    "points": 12,
+                    "car_number": 20,
+                    "position": 8,
+                    "races": 2,
+                    "races_with_points": 2
+                }
+            }, {
+                "id": "sr:competitor:568799",
+                "name": "Schumacher, Mick",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU",
+                "result": {
+                    "car_number": 47,
+                    "position": 15,
+                    "races": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:4515",
+            "name": "Alfa Romeo Racing",
+            "gender": "male",
+            "nationality": "Switzerland",
+            "country_code": "CHE",
+            "result": {
+                "points": 9,
+                "position": 6,
+                "races": 2,
+                "races_with_points": 1
+            },
+            "competitors": [{
+                "id": "sr:competitor:41600",
+                "name": "Bottas, Valtteri",
+                "gender": "male",
+                "nationality": "Finland",
+                "country_code": "FIN",
+                "result": {
+                    "points": 8,
+                    "car_number": 77,
+                    "position": 9,
+                    "races": 2,
+                    "races_with_points": 1
+                }
+            }, {
+                "id": "sr:competitor:811508",
+                "name": "Zhou, Guanyu",
+                "gender": "male",
+                "nationality": "China",
+                "country_code": "CHN",
+                "result": {
+                    "points": 1,
+                    "car_number": 24,
+                    "position": 14,
+                    "races": 2,
+                    "races_with_points": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:5771",
+            "name": "Alphatauri",
+            "gender": "male",
+            "nationality": "Italy",
+            "country_code": "ITA",
+            "result": {
+                "points": 8,
+                "position": 7,
+                "races": 2,
+                "races_with_points": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:381362",
+                "name": "Gasly, Pierre",
+                "gender": "male",
+                "nationality": "France",
+                "country_code": "FRA",
+                "result": {
+                    "points": 4,
+                    "car_number": 10,
+                    "position": 11,
+                    "races": 2,
+                    "races_with_points": 2
+                }
+            }, {
+                "id": "sr:competitor:764646",
+                "name": "Tsunoda, Yuki",
+                "gender": "male",
+                "nationality": "Japan",
+                "country_code": "JPN",
+                "result": {
+                    "points": 4,
+                    "car_number": 22,
+                    "position": 11,
+                    "races": 1,
+                    "races_with_points": 1
+                }
+            }]
+        }, {
+            "id": "sr:competitor:4514",
+            "name": "McLaren",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+                "points": 6,
+                "position": 8,
+                "races": 2,
+                "races_with_points": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:41603",
+                "name": "Ricciardo, Daniel",
+                "gender": "male",
+                "nationality": "Australia",
+                "country_code": "AUS",
+                "result": {
+                    "car_number": 3,
+                    "position": 19,
+                    "races": 2
+                }
+            }, {
+                "id": "sr:competitor:495898",
+                "name": "Norris, Lando",
+                "gender": "male",
+                "nationality": "Great Britain",
+                "country_code": "GBR",
+                "result": {
+                    "points": 6,
+                    "car_number": 4,
+                    "position": 10,
+                    "races": 2,
+                    "races_with_points": 2
+                }
+            }]
+        }, {
+            "id": "sr:competitor:496090",
+            "name": "Aston Martin F1 Team",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+                "position": 9,
+                "races": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:39412",
+                "name": "Hulkenberg, Nico",
+                "gender": "male",
+                "nationality": "Germany",
+                "country_code": "DEU",
+                "result": {
+                    "car_number": 27,
+                    "position": 17,
+                    "races": 2
+                }
+            }, {
+                "id": "sr:competitor:302866",
+                "name": "Stroll, Lance",
+                "gender": "male",
+                "nationality": "Canada",
+                "country_code": "CAN",
+                "result": {
+                    "car_number": 18,
+                    "position": 16,
+                    "races": 2
+                }
+            }]
+        }, {
+            "id": "sr:competitor:4511",
+            "name": "Williams",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+                "position": 10,
+                "races": 2
+            },
+            "competitors": [{
+                "id": "sr:competitor:522994",
+                "name": "Albon, Alexander",
+                "gender": "male",
+                "nationality": "Thailand",
+                "country_code": "THA",
+                "result": {
+                    "car_number": 23,
+                    "position": 18,
+                    "races": 2
+                }
+            }, {
+                "id": "sr:competitor:447677",
+                "name": "Latifi, Nicholas",
+                "gender": "male",
+                "nationality": "Canada",
+                "country_code": "CAN",
+                "result": {
+                    "car_number": 6,
+                    "position": 20,
+                    "races": 2
+                }
+            }]
+        }]
+    }
+}

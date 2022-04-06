@@ -1,5 +1,5 @@
 {
-    "images": [
+    "drivers": [
        {
           "id": "sr:competitor:269471",
           "name": "Leclerc, Charles",
@@ -105,5 +105,52 @@
       "name": "Vettel, Sebastian",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/19.png"
    }
-    ]
+    ],
+    "teams": [
+      {
+         "id": "sr:competitor:4510",
+         "name": "Ferrari",
+         "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/ferrari.png.transform/4col/image.png"
+      },
+      {
+       "id": "sr:competitor:41127",
+       "name": "Mercedes",
+       "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mercedes.png.transform/4col/image.png"
+    },
+    {
+       "id": "sr:competitor:4978",
+       "name": "Red Bull Racing",
+       "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/red-bull-racing.png.transform/4col/image.png"
+    },
+    {
+     "id": "sr:competitor:4512",
+     "name": "Alpine F1 Team",
+     "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alpine.png.transform/4col/image.png"
+  },
+  {
+   "id": "sr:competitor:242902",
+   "name": "Haas F1 Team",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/haas-f1-team.png.transform/4col/image.png"
+},{
+   "id": "sr:competitor:4515",
+   "name": "Alfa Romeo Racing",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alfa-romeo.png.transform/4col/image.png"
+},{
+   "id": "sr:competitor:5771",
+   "name": "Alphatauri",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alphatauri.png.transform/4col/image.png"
+},{
+   "id": "sr:competitor:4514",
+   "name": "Mclaren",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mclaren.png.transform/4col/image.png"
+},{
+   "id": "sr:competitor:496090",
+   "name": "Aston Martin F1 Team",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/aston-martin.png.transform/4col/image.png"
+},{
+   "id": "sr:competitor:4511",
+   "name": "Williams",
+   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/williams.png.transform/4col/image.png"
+}
+   ]
  }

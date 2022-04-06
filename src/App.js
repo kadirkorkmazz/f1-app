@@ -1,7 +1,8 @@
 import './App.css';
-import Bahrein from './components/Bahrain';
 import Drivers from './components/Drivers';
 import Header from './components/Header';
+import Teams from './components/Teams';
+import StandingsTable from './components/StandingsTable';
 
 function App() {
   
@@ -9,7 +10,9 @@ function App() {
     <div className="App">
         <Header/>
         <Drivers/>
-        <Bahrein/>
+        <Teams/>
+        <StandingsTable/>
+        
 
     </div>
   );
