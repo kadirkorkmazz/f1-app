@@ -4,6 +4,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-family: 'Titillium Web', sans-serif;
+
 }
 
 .f1logo{

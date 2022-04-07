@@ -1,21 +1,11 @@
 import React from 'react'
-import { useState, useEffect } from 'react'
-import standingsApiResult from "../standingsApiResult.json"
 import Card from 'react-bootstrap/Card'
-import teamImages from '../imagesDatabase.json'
+import teamImages from '../../Helpers/imagesDatabase.json'
 import "./Teams.css"
 
 
 
-function Teams() {
-    const [teams, setTeams] = useState([])
-
-
-    useEffect(() => {
-        console.log(standingsApiResult.stage.teams)
-        setTeams(standingsApiResult.stage.teams)
-    
-    }, [])
+function Teams({teams}) {
 
   return (
 
@@ -29,17 +19,15 @@ function Teams() {
     <Card key={team.id} >
     <Card.Img className='teamImage' variant="top" src={teamImages.teams.find(x => x.id === team.id).imageUrl}/>
   <Card.Body>
-    <Card.Title  >{team.name}</Card.Title>
-    <Card.Text> {team.nationality}  </Card.Text>
+    <Card.Title  >{team.name.toUpperCase()}</Card.Title>
+    <Card.Text> {team.nationality.toUpperCase()}  </Card.Text>
     <Card.Text> {team.result.points>0? "Team Points: " + team.result.points : "No Points"}  </Card.Text>
-
   </Card.Body>
 </Card>
 )}
 </div>
  </div>
 
-  
   )
 }
 

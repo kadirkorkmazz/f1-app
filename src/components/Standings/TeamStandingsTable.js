@@ -1,31 +1,22 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
-import { useState, useEffect } from 'react'
-import standingsApiResult from "../standingsApiResult.json"
-import "./StandingsTable.css"
+import "./standingsTable.css"
 
-function StandingsTable() {
-  
-  const [teams, setTeams] = useState([])
-
-  useEffect(() => {
-    console.log(standingsApiResult.stage.teams)
-    setTeams(standingsApiResult.stage.teams)
-}, [])
-
+function StandingsTable({teams}) {  
   return (
     <div className='teamStandings'>
+        <h1>2022 Team Standings</h1>
     <Table striped bordered hover>
   <thead>
     <tr>
       <th>#</th>
-      <th>Team</th>
-      <th>Nationality</th>
-      <th>Victories</th>
-      <th>Pole Positions</th>
-      <th>Podiums</th>
-      <th>Fastest Laps</th>
-      <th>Points</th>
+      <th>TEAM</th>
+      <th>NATIONALITY</th>
+      <th>VICTORIES</th>
+      <th>POLE POSITIONS</th>
+      <th>PODIUMS</th>
+      <th>FASTEST LAPS</th>
+      <th>POINTS</th>
     </tr>
   </thead>
   <tbody>
@@ -33,8 +24,8 @@ function StandingsTable() {
   teams.map(team => 
     <tr key={team.id}>
       <td>{team.result.position}</td>
-      <td>{team.name}</td>
-      <td>{team.nationality}</td>
+      <td>{team.name.toUpperCase()}</td>
+      <td>{team.nationality.toUpperCase()}</td>
       <td>{(team.result.victories)>0? team.result.victories : 0}</td>
       <td>{(team.result.polepositions)>0 ? team.result.polepositions : 0}</td>
       <td>{(team.result.podiums)>0 ? team.result.podiums : 0}</td>
