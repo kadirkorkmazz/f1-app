@@ -20,15 +20,23 @@ header{
     justify-content: space-around;
     width: 30%;
     margin-right: 50px;
-
 }
 
 .nav, button{
-    color: darkred;
+    color: 262C34;
 height: 3em;
 min-width: 150px;
 background-color: transparent;
 border: 0px;
 background-color: rgba(38, 44, 52, 0.1);
 
+}
+
+.nav_link.active button{
+    background-color: #262C34;
+    color: white;
+}
+.nav_link button:hover{
+    background-color: darkred;
+    color: white;
 }

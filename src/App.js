@@ -1,12 +1,7 @@
 import './App.css';
-import Drivers from './components/Drivers/Drivers';
-import Header from './components/Header/Header';
-import Teams from './components/Teams/Teams';
-import TeamStandingsTable from './components/Standings/TeamStandingsTable';
-import DriverStandingTable from './components/Standings/DriverStandingsTable'
 import standingsApiResult from "./Helpers/standingsApiResult.json"
 import { useState, useEffect } from 'react';
-
+import Router from './components/Router';
 function App() {
 
   const [drivers, setDrivers] = useState([])
@@ -29,17 +24,10 @@ function App() {
         return () => {
         }
       }, [])
-
-
-  
+ 
   return (
     <div className="App">
-        <Header/>
-        <Drivers drivers={drivers}/>
-        <Teams teams={teams}/>
-        <TeamStandingsTable teams={teams}/>
-        <DriverStandingTable drivers={drivers}/>
-        
+        <Router driversData={drivers} teamsData={teams}  />
     </div>
   );
 }
