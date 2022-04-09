@@ -1,24 +1,46 @@
 
 .DetailsCard{
-    background-color: darkred;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.2);
     display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.DetailsCardInner{
+    position: relative;
+    padding: 32px;
+    width: 100%;
+    max-width: 720px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 .DetailsCardRightSide{
     background-color: aliceblue;
-    width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
 }
 
 .driverInfo{
-    background-color: darkblue;
+    background-color: aliceblue;
+    position: relative;
 }
 
 
 .driverImg{
-    width: 50%;
-    background-color: cyan;
+    width: 30%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +50,6 @@
     width: 18rem;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 
 .driverCarImg{
@@ -38,7 +59,7 @@
 
 }
 .driverCarImg img{
-width: 23rem;
+width: 25rem;
 
 }
 
@@ -46,11 +67,13 @@ width: 23rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 50px;
+    width: 100%;
 
 }
 
 .infoItem{
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -58,11 +81,47 @@ width: 23rem;
 }
 
 .driverDetailsTable{
-    color: red;
-    width: 100%;
+    width: auto;
+}
+
+.driverDetailsTable td {
+    background-color: aliceblue;
+    color: darkred;
+    text-align: left;
+    font-size: 1em;
+}
+.driverDetailsTable th {
+    background-color: aliceblue;
+    color: darkred;
+    text-align: left;
+    font-size: 1em;
+}
+
+.driverDetailsTable tr{
+    padding-left: 100px;
 }
 
 
+.DetailsCardLeftSide{
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
 
 
+.DetailsCardInner .close-btn{
+    position:absolute;
+    display: inline-block;
+    top: 16px;
+    right: 16px;
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    z-index: 1;
 
+}

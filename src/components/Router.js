@@ -5,7 +5,6 @@ import Teams from './Teams/Teams'
 import DriverStandings from './Standings/DriverStandingsTable'
 import Header from './Header/Header'
 import TeamStandings from './Standings/TeamStandingsTable'
-import DriverDetails from './DriverDetails/DriverDetails'
 
 function Router({teamsData,driversData}) {
   return (
@@ -17,8 +16,6 @@ function Router({teamsData,driversData}) {
             <Route path='teams' exact element={<Teams teams={teamsData} />}/>
             <Route path='driverstandings' exact element={<DriverStandings drivers={driversData} />}/>
             <Route path='teamstandings' exact element={<TeamStandings teams={teamsData} />}/>
-            <Route path='details' exact element={<DriverDetails drivers={driversData} />}/>
-
             </Route>
         </Routes>
     </BrowserRouter>
