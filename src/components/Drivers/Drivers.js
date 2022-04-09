@@ -1,20 +1,52 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Card from 'react-bootstrap/Card'
 import driverImages from '../../Helpers/imagesDatabase.json'
 import './Drivers.css'
 import DriverDetails from '../DriverDetails/DriverDetails'
+import { getDriverDataFromApi } from '../../Helpers/getDriverDataFromApi'
 
 function Drivers({drivers}) {
 
   const [selectedDriver, setSelecterDriver] = useState("sr:competitor:269471");
   const [selectedDriverTeam, setSelectedDriverTeam] = useState("sr:competitor:4510");
   const [popupToggle, setPopupToggle] = useState(false);
+  const [driverDetail, setDriverDetail] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
 
-  const handlePopup = (e)=> {
-    setSelecterDriver(e.target.id)
-    setSelectedDriverTeam(e.target.dataset.team)
+  
+  useEffect(() => {
+
+    const fetchData = async () => {
+      const data = await getDriverDataFromApi(selectedDriver);
+      // convert data to json
+      setDriverDetail(data)
+      setIsLoading(false)
+
+    }
+
+    fetchData();
+
+/*
+    getDriverDataFromApi(selectedDriver)
+    .then((result)=> setDriverDetail(result), setIsLoading(false)
+    )
+  */
+    
+  }, [selectedDriver])
+  
+
+  const handleCardClick = (e)=>{
+   
+    setSelecterDriver(e.target.dataset.did)
+    setSelectedDriverTeam(e.target.dataset.team)    
     setPopupToggle(true)
+   
+
+
   }
+
+  
+
 
   return (
     <div id='driverPage'>
@@ -24,20 +56,19 @@ function Drivers({drivers}) {
 {
   drivers.map(driver => 
     
-    <Card key={driver.id}>
-    <Card.Text id='driverNumber'> {driver.result.car_number}   </Card.Text>
-  <Card.Img variant="top" src={driverImages.drivers.find(x => x.id === driver.id).imageUrl}/>
-  <Card.Body  >
-    <Card.Title  >{driver.name.toUpperCase()}</Card.Title>
-    <Card.Text > {driver.team.name.toUpperCase()}  </Card.Text>
-    <Card.Text> {driver.nationality.toUpperCase()}  </Card.Text>
-    <Card.Text> {driver.result.points>0? "Points: " + driver.result.points : "No Points"} </Card.Text>
-    <Card.Link data-team={driver.team.id} id={driver.id} onClick={handlePopup}>Details</Card.Link>
+    <Card onClick={handleCardClick} key={driver.id} data-did={driver.id} data-team={driver.team.id}>
+    <Card.Text id='driverNumber' data-did={driver.id} data-team={driver.team.id}> {driver.result.car_number}    </Card.Text>
+  <Card.Img variant="top" src={driverImages.drivers.find(x => x.id === driver.id).imageUrl} data-did={driver.id} data-team={driver.team.id}/>
+  <Card.Body data-did={driver.id} data-team={driver.team.id}>
+    <Card.Title data-did={driver.id} data-team={driver.team.id}>{driver.name.toUpperCase()}</Card.Title>
+    <Card.Text data-did={driver.id} data-team={driver.team.id}> {driver.team.name.toUpperCase()}  </Card.Text>
+    <Card.Text data-did={driver.id} data-team={driver.team.id}> {driver.nationality.toUpperCase()}  </Card.Text>
+    <Card.Text data-did={driver.id} data-team={driver.team.id}> {driver.result.points>0? "Points: " + driver.result.points : "No Points"} </Card.Text>
   </Card.Body>
 </Card>
 )}
 </div>
-<DriverDetails trigger={popupToggle} setPopupToggle={setPopupToggle} drivers={drivers} selectedDriver={selectedDriver} selectedDriverTeam={selectedDriverTeam}/>
+<DriverDetails trigger={popupToggle} setPopupToggle={setPopupToggle} drivers={drivers} selectedDriver={selectedDriver} selectedDriverTeam={selectedDriverTeam} driverDetail={driverDetail} isLoading={isLoading} />
  </div>
 
   )}

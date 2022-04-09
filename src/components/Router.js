@@ -7,6 +7,7 @@ import Header from './Header/Header'
 import TeamStandings from './Standings/TeamStandingsTable'
 
 function Router({teamsData,driversData}) {
+    
   return (
 
     <BrowserRouter>

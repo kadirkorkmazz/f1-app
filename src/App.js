@@ -2,6 +2,8 @@ import './App.css';
 import standingsApiResult from "./Helpers/standingsApiResult.json"
 import { useState, useEffect } from 'react';
 import Router from './components/Router';
+
+
 function App() {
 
   const [drivers, setDrivers] = useState([])
@@ -16,13 +18,12 @@ function App() {
           setDrivers(result)
         })
         */
+        
         setDrivers(standingsApiResult.stage.competitors)
         setTeams(standingsApiResult.stage.teams)
         console.log(standingsApiResult.stage.competitors)
         console.log(standingsApiResult.stage.teams)
 
-        return () => {
-        }
       }, [])
  
   return (

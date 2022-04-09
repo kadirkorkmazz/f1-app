@@ -2,22 +2,21 @@ import React from 'react'
 import "./DriverDetails.css"
 import imagesDatabase from '../../Helpers/imagesDatabase.json'
 
-function DriverDetails({trigger,setPopupToggle,drivers,selectedDriver, selectedDriverTeam }) {
+function DriverDetails({trigger,setPopupToggle, selectedDriver, selectedDriverTeam, driverDetail, isLoading}) {
 
-  const disablePopup = () => {
-    setPopupToggle(false);
+  const disablePopup = (e) => {
+    if (e.target.className.includes("close-area")) {
+      setPopupToggle(false);
+    }
   }
+
 
   return (trigger)? (
 
-    <div className='DetailsCard'>
-
+    <div className='DetailsCard close-area' onClick={disablePopup}>
     <div className='DetailsCardInner'>
-
-    <button onClick={disablePopup} className='close-btn'>X</button>
-
+    <button onClick={disablePopup} className='close-btn close-area'>X</button>
       <div className='DetailsCardLeftSide'>
-
       <div className='driverImg'>
     <img src={imagesDatabase.drivers.find(driver => driver.id === selectedDriver).imageUrl} alt='DriverPhoto'></img>
     </div>
@@ -26,60 +25,52 @@ function DriverDetails({trigger,setPopupToggle,drivers,selectedDriver, selectedD
       <img src={imagesDatabase.teams.find(team => team.id === selectedDriverTeam).imageUrl} alt='CarPhoto'></img>
 </div>
 </div>
-
     <div className='DetailsCardRightSide'>
-
       <div className='driverInfo'>
-      
       <table className='driverDetailsTable' >
       <tbody>
       <tr >
         <th>Team</th>
-        <td>{drivers.find(element => element.id === selectedDriver).team.name}</td>
+        <td>{((!isLoading) && driverDetail.teams[0].name)}</td>
     </tr>
     <tr>
         <th>Country</th>
-        <td>{drivers.find(element => element.id === selectedDriver).nationality}</td>
-        
+        <td>{((!isLoading) && driverDetail.competitor.nationality)}</td>
     </tr>
     <tr>
-        <th>Podiums</th>
-        <td>{drivers.find(element => element.id === selectedDriver).result.podiums}</td>
+        <th>Date Of Birth</th>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.dateofbirth)}</td>
     </tr>
     <tr>
-        <th>Points</th>
-        <td>{drivers.find(element => element.id === selectedDriver).result.points}</td>
+        <th>Height</th>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.height)}</td>
     </tr>
     <tr>
-        <th>Date of Birth</th>
-        <td>1994-09-01</td>
-    </tr>
-    <tr>
-        <th >Place of Birth</th>
-        <td>Monako</td>
+        <th>Weight</th>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.weight)}</td>
     </tr>
     <tr>
         <th >Debut</th>
-        <td>2015-03-15</td>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.debut)}</td>
     </tr>
     <tr>
         <th >First Points</th>
-        <td>2015-03-15</td>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.first_points)}</td>
     </tr>
     <tr>
-        <th >Salary</th>
-        <td>3500000</td>
+        <th >First Pole</th>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.first_pole)}</td>
     </tr>
+    <tr>
+        <th >First Victory</th>
+        <td>{((!isLoading) && driverDetail.info && driverDetail.info.first_victory)}</td>
+    </tr>
+   
       </tbody>
-    
 </table>
-
       </div>
-
     </div>
-
     </div>
-
     </div>
   ): ""
   
