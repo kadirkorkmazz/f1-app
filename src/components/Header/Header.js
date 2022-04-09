@@ -1,27 +1,40 @@
-import React from 'react'
-import './Header.css'
-import { Link, Outlet, NavLink} from 'react-router-dom'
+import React from 'react';
+import './Header.css';
+import { Link, Outlet, NavLink } from 'react-router-dom';
 
 function Header() {
-
   return (
     <div>
-    <header>
-
-    <Link to="/drivers"> <div className='f1logo'><img src="https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg" alt="Kiwi standing on oval"/></div>
-</Link>
+      <header>
+        <Link to='/drivers'>
+          {' '}
+          <div className='f1logo'>
+            <img
+              src='https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg'
+              alt='Kiwi standing on oval'
+            />
+          </div>
+        </Link>
         <div className='navi'>
-        <NavLink className="nav_link" to="/drivers"> <button className='drivers'> Drivers</button></NavLink>
-        <NavLink className="nav_link" to="teams"><button className='teams'> Teams</button> </NavLink>
-        <NavLink className="nav_link" to="driverstandings"><button className='driverStandings'> Driver Standings</button> </NavLink>
-        <NavLink className="nav_link" to="teamstandings"><button className='teamStandings'> Team Standings</button> </NavLink>
-            </div>
-    </header>
+          <NavLink className='nav_link' to='/drivers'>
+            {' '}
+            <button className='drivers'> Drivers</button>
+          </NavLink>
+          <NavLink className='nav_link' to='teams'>
+            <button className='teams'> Teams</button>{' '}
+          </NavLink>
+          <NavLink className='nav_link' to='driverstandings'>
+            <button className='driverStandings'> Driver Standings</button>{' '}
+          </NavLink>
+          <NavLink className='nav_link' to='teamstandings'>
+            <button className='teamStandings'> Team Standings</button>{' '}
+          </NavLink>
+        </div>
+      </header>
 
-    <Outlet/>
-
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default Header
+export default Header;

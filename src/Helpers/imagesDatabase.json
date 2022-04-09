@@ -1,156 +1,161 @@
 {
-    "drivers": [
-       {
-          "id": "sr:competitor:269471",
-          "name": "Leclerc, Charles",
-          "imageUrl": "https://media.api-sports.io/formula-1/drivers/34.png"
-       },
-       {
-        "id": "sr:competitor:189029",
-        "name": "Sainz Jr, Carlos",
-        "imageUrl": "https://media.api-sports.io/formula-1/drivers/24.png"
-     },
-     {
-        "id": "sr:competitor:7135",
-        "name": "Hamilton, Lewis",
-        "imageUrl": "https://media.api-sports.io/formula-1/drivers/20.png"
-     },
-     {
+  "drivers": [
+    {
+      "id": "sr:competitor:269471",
+      "name": "Leclerc, Charles",
+      "imageUrl": "https://media.api-sports.io/formula-1/drivers/34.png"
+    },
+    {
+      "id": "sr:competitor:189029",
+      "name": "Sainz Jr, Carlos",
+      "imageUrl": "https://media.api-sports.io/formula-1/drivers/24.png"
+    },
+    {
+      "id": "sr:competitor:7135",
+      "name": "Hamilton, Lewis",
+      "imageUrl": "https://media.api-sports.io/formula-1/drivers/20.png"
+    },
+    {
       "id": "sr:competitor:391432",
       "name": "Russell, George",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/51.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:135592",
       "name": "Magnussen, Kevin",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/2.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:41600",
       "name": "Bottas, Valtteri",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/5.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:184751",
       "name": "Ocon, Esteban",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/28.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:764646",
       "name": "Tsunoda, Yuki",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/82.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:4521",
       "name": "Alonso, Fernando",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/4.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:811508",
       "name": "Zhou, Guanyu",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/83.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:568799",
       "name": "Schumacher, Mick",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/80.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:302866",
       "name": "Stroll, Lance",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/31.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:522994",
       "name": "Albon, Alexander",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/50.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:41603",
       "name": "Ricciardo, Daniel",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/14.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:495898",
       "name": "Norris, Lando",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/49.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:447677",
       "name": "Latifi, Nicholas",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/61.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:39412",
       "name": "Hulkenberg, Nico",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/6.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:46337",
       "name": "Perez, Sergio",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/10.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:178318",
       "name": "Verstappen, Max",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/25.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:381362",
       "name": "Gasly, Pierre",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/36.png"
-   },
-   {
+    },
+    {
       "id": "sr:competitor:",
       "name": "Vettel, Sebastian",
       "imageUrl": "https://media.api-sports.io/formula-1/drivers/19.png"
-   }
-    ],
-    "teams": [
-      {
-         "id": "sr:competitor:4510",
-         "name": "Ferrari",
-         "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/ferrari.png.transform/4col/image.png"
-      },
-      {
-       "id": "sr:competitor:41127",
-       "name": "Mercedes",
-       "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mercedes.png.transform/4col/image.png"
+    }
+  ],
+  "teams": [
+    {
+      "id": "sr:competitor:4510",
+      "name": "Ferrari",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/ferrari.png.transform/4col/image.png"
     },
     {
-       "id": "sr:competitor:4978",
-       "name": "Red Bull Racing",
-       "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/red-bull-racing.png.transform/4col/image.png"
+      "id": "sr:competitor:41127",
+      "name": "Mercedes",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mercedes.png.transform/4col/image.png"
     },
     {
-     "id": "sr:competitor:4512",
-     "name": "Alpine F1 Team",
-     "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alpine.png.transform/4col/image.png"
-  },
-  {
-   "id": "sr:competitor:242902",
-   "name": "Haas F1 Team",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/haas-f1-team.png.transform/4col/image.png"
-},{
-   "id": "sr:competitor:4515",
-   "name": "Alfa Romeo Racing",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alfa-romeo.png.transform/4col/image.png"
-},{
-   "id": "sr:competitor:5771",
-   "name": "Alphatauri",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alphatauri.png.transform/4col/image.png"
-},{
-   "id": "sr:competitor:4514",
-   "name": "Mclaren",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mclaren.png.transform/4col/image.png"
-},{
-   "id": "sr:competitor:496090",
-   "name": "Aston Martin F1 Team",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/aston-martin.png.transform/4col/image.png"
-},{
-   "id": "sr:competitor:4511",
-   "name": "Williams",
-   "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/williams.png.transform/4col/image.png"
+      "id": "sr:competitor:4978",
+      "name": "Red Bull Racing",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/red-bull-racing.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:4512",
+      "name": "Alpine F1 Team",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alpine.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:242902",
+      "name": "Haas F1 Team",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/haas-f1-team.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:4515",
+      "name": "Alfa Romeo Racing",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alfa-romeo.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:5771",
+      "name": "Alphatauri",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/alphatauri.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:4514",
+      "name": "Mclaren",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/mclaren.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:496090",
+      "name": "Aston Martin F1 Team",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/aston-martin.png.transform/4col/image.png"
+    },
+    {
+      "id": "sr:competitor:4511",
+      "name": "Williams",
+      "imageUrl": "https://www.formula1.com/content/dam/fom-website/teams/2022/williams.png.transform/4col/image.png"
+    }
+  ]
 }
-   ]
- }

@@ -1,127 +1,114 @@
-
-.DetailsCard{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.DetailsCard {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.DetailsCardInner{
-    position: relative;
-    padding: 32px;
-    width: 100%;
-    max-width: 720px;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-
+.DetailsCardInner {
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 720px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 
-
-.DetailsCardRightSide{
-    background-color: aliceblue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-
+.DetailsCardRightSide {
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
-.driverInfo{
-    background-color: aliceblue;
-    position: relative;
+.driverInfo {
+  background-color: aliceblue;
+  position: relative;
 }
 
-
-.driverImg{
-    width: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 30px;
+.driverImg {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
 }
-.driverImg img{
-    width: 18rem;
-    align-items: center;
-    justify-content: center;
-}
-
-.driverCarImg{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.driverCarImg img{
-width: 25rem;
-
+.driverImg img {
+  width: 18rem;
+  align-items: center;
+  justify-content: center;
 }
 
-.driverInfo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 50px;
-    width: 100%;
-
+.driverCarImg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.driverCarImg img {
+  width: 25rem;
 }
 
-.infoItem{
-    width: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    justify-content: center;
+.driverInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+  width: 100%;
 }
 
-.driverDetailsTable{
-    width: auto;
+.infoItem {
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+
+.driverDetailsTable {
+  width: auto;
 }
 
 .driverDetailsTable td {
-    background-color: aliceblue;
-    color: darkred;
-    text-align: left;
-    font-size: 1em;
+  background-color: aliceblue;
+  color: darkred;
+  text-align: left;
+  font-size: 1em;
 }
 .driverDetailsTable th {
-    background-color: aliceblue;
-    color: darkred;
-    text-align: left;
-    font-size: 1em;
+  background-color: aliceblue;
+  color: darkred;
+  text-align: left;
+  font-size: 1em;
 }
 
-.driverDetailsTable tr{
-    padding-left: 100px;
+.driverDetailsTable tr {
+  padding-left: 100px;
 }
 
-
-.DetailsCardLeftSide{
-    background-color: darkred;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-
+.DetailsCardLeftSide {
+  background-color: darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
-
-.DetailsCardInner .close-btn{
-    position:absolute;
-    display: inline-block;
-    top: 16px;
-    right: 16px;
-    background-color: red;
-    width: 100px;
-    height: 30px;
-    z-index: 1;
-
+.DetailsCardInner .close-btn {
+  position: absolute;
+  display: inline-block;
+  top: 16px;
+  right: 16px;
+  background-color: red;
+  width: 100px;
+  height: 30px;
+  z-index: 1;
 }

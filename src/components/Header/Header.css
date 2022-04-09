@@ -1,42 +1,41 @@
-header{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    font-family: 'Titillium Web', sans-serif;
-
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Titillium Web', sans-serif;
 }
 
-.f1logo{
-    padding: 10px;
+.f1logo {
+  padding: 10px;
 }
 
-.navi{
-    position: relative;
-    display: flex;
-    margin: 10px 0;
-    align-items: center;
-    justify-content: space-around;
-    width: 30%;
-    margin-right: 50px;
+.navi {
+  position: relative;
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  margin-right: 50px;
 }
 
-.nav, button{
-    color: 262C34;
-height: 3em;
-min-width: 150px;
-background-color: transparent;
-border: 0px;
-background-color: rgba(38, 44, 52, 0.1);
-
+.nav,
+button {
+  color: 262C34;
+  height: 3em;
+  min-width: 150px;
+  background-color: transparent;
+  border: 0px;
+  background-color: rgba(38, 44, 52, 0.1);
 }
 
-.nav_link.active button{
-    background-color: #262C34;
-    color: white;
+.nav_link.active button {
+  background-color: #262c34;
+  color: white;
 }
-.nav_link button:hover{
-    background-color: darkred;
-    color: white;
+.nav_link button:hover {
+  background-color: darkred;
+  color: white;
 }
