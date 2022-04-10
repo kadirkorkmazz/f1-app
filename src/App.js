@@ -1,26 +1,21 @@
 import './App.css';
-import standingsApiResult from './Helpers/standingsApiResult.json';
 import { useState, useEffect } from 'react';
 import Router from './components/Router';
+import { getDataFromApi } from './Helpers/data';
 
 function App() {
   const [drivers, setDrivers] = useState([]);
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    /*api sorgu sınırı sebebiyle devre dışı bırakıldı.
-        getDataFromApi()
-        .then((result)=> result.stage.competitors)
-        .then((result) => {
-          console.log(result)
-          setDrivers(result)
-        })
-        */
+    const fetchData = async () => {
+      const data = await getDataFromApi();
+      setDrivers(data.stage.competitors);
+      setTeams(data.stage.teams);
+      console.log(data.stage);
+    };
 
-    setDrivers(standingsApiResult.stage.competitors);
-    setTeams(standingsApiResult.stage.teams);
-    console.log(standingsApiResult.stage.competitors);
-    console.log(standingsApiResult.stage.teams);
+    fetchData();
   }, []);
 
   return (

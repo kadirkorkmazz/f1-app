@@ -21,12 +21,6 @@ function Drivers({ drivers }) {
     };
 
     fetchData();
-
-    /*
-    getDriverDataFromApi(selectedDriver)
-    .then((result)=> setDriverDetail(result), setIsDriverDetailLoading(false)
-    )
-  */
   }, [selectedDriver]);
 
   const handleCardClick = (e) => {
@@ -51,8 +45,7 @@ function Drivers({ drivers }) {
               data-did={driver.id}
               data-team={driver.team.id}
             >
-              {' '}
-              {driver.result.car_number}{' '}
+              {driver.result.car_number}
             </Card.Text>
             <Card.Img
               variant='top'
@@ -67,18 +60,15 @@ function Drivers({ drivers }) {
                 {driver.name.toUpperCase()}
               </Card.Title>
               <Card.Text data-did={driver.id} data-team={driver.team.id}>
-                {' '}
-                {driver.team.name.toUpperCase()}{' '}
+                {driver.team.name.toUpperCase()}
               </Card.Text>
               <Card.Text data-did={driver.id} data-team={driver.team.id}>
-                {' '}
-                {driver.nationality.toUpperCase()}{' '}
+                {driver.nationality.toUpperCase()}
               </Card.Text>
               <Card.Text data-did={driver.id} data-team={driver.team.id}>
-                {' '}
                 {driver.result.points > 0
                   ? 'Points: ' + driver.result.points
-                  : 'No Points'}{' '}
+                  : 'No Points'}
               </Card.Text>
             </Card.Body>
           </Card>
