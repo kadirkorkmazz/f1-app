@@ -9,22 +9,22 @@ function Drivers({ drivers }) {
   const [selectedDriver, setSelecterDriver] = useState('sr:competitor:269471');
   const [selectedDriverTeam, setSelectedDriverTeam] =
     useState('sr:competitor:4510');
-  const [popupToggle, setPopupToggle] = useState(false);
+  const [driverDetailPopupToggle, setDriverDetailPopupToggle] = useState(false);
   const [driverDetail, setDriverDetail] = useState([]);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isDriverDetailLoading, setIsDriverDetailLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await getDriverDataFromApi(selectedDriver);
       setDriverDetail(data);
-      setIsLoading(false);
+      setIsDriverDetailLoading(false);
     };
 
     fetchData();
 
     /*
     getDriverDataFromApi(selectedDriver)
-    .then((result)=> setDriverDetail(result), setIsLoading(false)
+    .then((result)=> setDriverDetail(result), setIsDriverDetailLoading(false)
     )
   */
   }, [selectedDriver]);
@@ -32,7 +32,7 @@ function Drivers({ drivers }) {
   const handleCardClick = (e) => {
     setSelecterDriver(e.target.dataset.did);
     setSelectedDriverTeam(e.target.dataset.team);
-    setPopupToggle(true);
+    setDriverDetailPopupToggle(true);
   };
 
   return (
@@ -85,13 +85,13 @@ function Drivers({ drivers }) {
         ))}
       </div>
       <DriverDetails
-        trigger={popupToggle}
-        setPopupToggle={setPopupToggle}
+        trigger={driverDetailPopupToggle}
+        setDriverDetailPopupToggle={setDriverDetailPopupToggle}
         drivers={drivers}
         selectedDriver={selectedDriver}
         selectedDriverTeam={selectedDriverTeam}
         driverDetail={driverDetail}
-        isLoading={isLoading}
+        isDriverDetailLoading={isDriverDetailLoading}
       />
     </div>
   );

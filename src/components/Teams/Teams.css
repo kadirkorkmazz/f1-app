@@ -6,7 +6,7 @@
   justify-content: center;
 }
 
-.card {
+#teamCards .card {
   width: 16rem;
   position: relative;
   display: flex;
@@ -21,7 +21,7 @@
   justify-content: space-between;
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
-  box-shadow: 3px 3px white;
+  box-shadow: 3px 3px 5px white;
   font-size: 1.25em;
 }
 
