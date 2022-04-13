@@ -21,7 +21,7 @@
   justify-content: space-between;
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
-  box-shadow: 3px 3px 5px white;
+  box-shadow: 3px 3px 2px white;
   font-size: 1.25em;
 }
 
@@ -50,4 +50,13 @@ h1 {
   text-align: center;
   color: #e03102;
   text-shadow: 0.5px 0.5px white;
+}
+
+p.teamPoints {
+  color: white;
+  background-color: #262c3461;
+  border-bottom-right-radius: 30%;
+  border-top-left-radius: 30%;
+  padding: 10px;
+  font-weight: bold;
 }

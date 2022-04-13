@@ -1,5 +1,8 @@
+html,
 body {
+  position: relative;
   font-family: 'Titillium Web', sans-serif;
-  background-color: #262c34;
+  background: repeating-linear-gradient(45deg, black, #262c34 6px);
   box-sizing: border-box;
+  min-height: 100%;
 }

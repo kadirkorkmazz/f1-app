@@ -65,7 +65,11 @@ function Drivers({ drivers }) {
               <Card.Text data-did={driver.id} data-team={driver.team.id}>
                 {driver.nationality.toUpperCase()}
               </Card.Text>
-              <Card.Text data-did={driver.id} data-team={driver.team.id}>
+              <Card.Text
+                className='driverPoints'
+                data-did={driver.id}
+                data-team={driver.team.id}
+              >
                 {driver.result.points > 0
                   ? 'Points: ' + driver.result.points
                   : 'No Points'}

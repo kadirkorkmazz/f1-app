@@ -1,5 +1,5 @@
 header {
-  background-color: white;
+  background-color: #262c34;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,19 +23,18 @@ header {
 
 .nav,
 button {
-  color: 262C34;
+  color: whitesmoke;
   height: 3em;
   min-width: 150px;
-  background-color: transparent;
+  background-color: darkred;
   border: 0px;
-  background-color: rgba(38, 44, 52, 0.1);
 }
 
 .nav_link.active button {
-  background-color: #262c34;
-  color: white;
+  background-color: whitesmoke;
+  color: darkred;
 }
 .nav_link button:hover {
-  background-color: darkred;
-  color: white;
+  background-color: firebrick;
+  color: whitesmoke;
 }

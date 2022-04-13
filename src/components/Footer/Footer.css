@@ -1,0 +1,28 @@
+.footer {
+  position: absolute;
+  left: 0;
+  background-color: #262c34;
+  color: white;
+  width: 100vw;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 5vh;
+  margin-top: 50px;
+}
+
+.footer .footer-social {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.footer .footer-social a {
+  padding: 10px;
+}
+
+.footer .footer-social a svg {
+  color: white;
+}

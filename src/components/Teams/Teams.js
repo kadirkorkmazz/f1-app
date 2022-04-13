@@ -46,7 +46,7 @@ function Teams({ teams }) {
               <Card.Text data-team={team.id}>
                 {team.nationality.toUpperCase()}
               </Card.Text>
-              <Card.Text data-team={team.id}>
+              <Card.Text className='teamPoints' data-team={team.id}>
                 {team.result.points > 0
                   ? 'Team Points: ' + team.result.points
                   : 'No Points'}

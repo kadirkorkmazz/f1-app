@@ -4,7 +4,7 @@ import './standingsTable.css';
 
 function StandingsTable({ teams }) {
   return (
-    <div className='teamStandings'>
+    <div className='standingsTable'>
       <h1>2022 Team Standings</h1>
       <Table striped bordered hover>
         <thead>
