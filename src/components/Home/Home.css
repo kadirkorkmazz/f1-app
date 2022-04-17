@@ -1,0 +1,30 @@
+.bannerImgFrame {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.bannerImgFrame img {
+  max-width: 1230px;
+  border: 5px solid darkred;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.navi-img {
+  padding: 10px;
+}
+
+.navi-img img {
+  border: 5px solid darkred;
+  width: 600px;
+  height: 420px;
+}

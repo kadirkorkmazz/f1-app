@@ -11,7 +11,9 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: #e03102;
+  /* background-color: #e03102; */
+  background-color: #262c3461;
+
   color: whitesmoke;
   margin: 20px;
   padding: 10px;
@@ -21,7 +23,8 @@
   justify-content: space-between;
   border-top-right-radius: 10%;
   border-bottom-left-radius: 10%;
-  box-shadow: 3px 3px 2px white;
+  /* box-shadow: 3px 3px 2px white; */
+  border: 5px solid darkred;
   font-size: 1.25em;
 }
 
@@ -53,8 +56,8 @@ h1 {
 }
 
 p.teamPoints {
-  color: white;
-  background-color: #262c3461;
+  color: red;
+  background-color: #06111f61;
   border-bottom-right-radius: 30%;
   border-top-left-radius: 30%;
   padding: 10px;

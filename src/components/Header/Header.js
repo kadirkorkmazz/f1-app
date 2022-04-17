@@ -11,7 +11,7 @@ function Header() {
           <div className='f1logo'>
             <img
               src='https://upload.wikimedia.org/wikipedia/commons/3/33/F1.svg'
-              alt='Kiwi standing on oval'
+              alt='F1 Logo'
             />
           </div>
         </Link>
@@ -30,7 +30,6 @@ function Header() {
           </NavLink>
         </div>
       </header>
-
       <Outlet />
       <Footer />
     </div>

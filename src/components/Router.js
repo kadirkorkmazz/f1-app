@@ -5,12 +5,16 @@ import Teams from './Teams/Teams';
 import DriverStandings from './Standings/DriverStandingsTable';
 import Header from './Header/Header';
 import TeamStandings from './Standings/TeamStandingsTable';
+import Home from './Home/Home';
+import ScrollToTop from './ScrollToTop';
 
 function Router({ teamsData, driversData }) {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path='/' exact element={<Header />}>
+          <Route path='/' exact element={<Home />}></Route>
           <Route
             path='drivers'
             exact
