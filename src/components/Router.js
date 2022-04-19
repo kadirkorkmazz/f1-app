@@ -7,6 +7,7 @@ import Header from './Header/Header';
 import TeamStandings from './Standings/TeamStandingsTable';
 import Home from './Home/Home';
 import ScrollToTop from './ScrollToTop';
+import LastRaceResult from './LastRaceResult/LastRaceResult';
 
 function Router({ teamsData, driversData }) {
   return (
@@ -31,6 +32,7 @@ function Router({ teamsData, driversData }) {
             exact
             element={<TeamStandings teams={teamsData} />}
           />
+          <Route path='lastraceresult' exact element={<LastRaceResult />} />
         </Route>
       </Routes>
     </BrowserRouter>

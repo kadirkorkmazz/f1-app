@@ -25,6 +25,10 @@
   border: 5px solid darkred;
   font-size: 1.25em;
 }
+#driverCards .card:hover {
+  border: 5px solid orange;
+  cursor: pointer;
+}
 
 .card-img-top {
   width: 10rem;
@@ -49,7 +53,7 @@ p.card-text {
 h1 {
   text-align: center;
   color: #e03102;
-  text-shadow: 0.5px 0.5px white;
+  text-shadow: 0.4px 0.4px red;
 }
 
 #driverNumber {

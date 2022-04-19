@@ -28,6 +28,9 @@ function Header() {
           <NavLink className='nav_link' to='teamstandings'>
             <button className='teamStandings'> Team Standings</button>
           </NavLink>
+          <NavLink className='nav_link' to='lastraceresult'>
+            <button className='lastRaceResult'> Last Race Result</button>
+          </NavLink>
         </div>
       </header>
       <Outlet />

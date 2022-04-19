@@ -52,6 +52,7 @@
 
 .driverDetailsTable {
   width: auto;
+  border: 0;
 }
 
 .driverDetailsTable td {

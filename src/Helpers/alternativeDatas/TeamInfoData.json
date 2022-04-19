@@ -1,0 +1,54 @@
+{
+    "generated_at": "2022-04-18T10:27:07+00:00",
+    "schema": "..\/..\/..\/schemas\/team_profile.json",
+    "team": {
+        "id": "sr:competitor:4510",
+        "name": "Ferrari",
+        "gender": "male",
+        "nationality": "Italy",
+        "country_code": "ITA"
+    },
+    "competitors": [{
+        "id": "sr:competitor:189029",
+        "name": "Sainz Jr, Carlos",
+        "gender": "male",
+        "nationality": "Spain",
+        "country_code": "ESP"
+    }, {
+        "id": "sr:competitor:269471",
+        "name": "Leclerc, Charles",
+        "gender": "male",
+        "nationality": "Monaco",
+        "country_code": "MCO"
+    }],
+    "info": {
+        "url_official": "https:\/\/formula1.ferrari.com\/en\/",
+        "country_of_residence": "Italy",
+        "country_of_residence_id": "sr:country:105",
+        "country_code_of_residence": "ITA",
+        "debut": "1950-05-21",
+        "first_points": "1950-05-21",
+        "first_pole": "1951-07-14",
+        "first_victory": "1951-07-14",
+        "foundation_year": "1929",
+        "location": "Via A. Ascari 55\/57, 41053 Maranello (MO)",
+        "car_name": "Ferrari SF1000",
+        "car_construction_year": "2020",
+        "car_tyres": "Pirelli",
+        "car_chassis": "SF1000",
+        "car_engine_size": "1600",
+        "car_fuel_type": "Shell V-Power",
+        "president": "Mattia Binotto",
+        "sports_director": "Luca Baldisseri",
+        "technical_director": "Mattia Binotto",
+        "back_wing_color": "0xff0000",
+        "middle_back_sides_color": "0x000000",
+        "middle_back_center_color": "0xFFFFFF",
+        "middle_sides_color": "0xff0000",
+        "front_color": "0xff0000",
+        "front_wing_color": "0xff0000",
+        "car_engine_name": "Ferrari 065",
+        "f1_license": "105",
+        "car_nickname": "Ferrari"
+    }
+}

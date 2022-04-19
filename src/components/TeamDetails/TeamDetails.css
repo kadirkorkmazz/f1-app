@@ -70,6 +70,7 @@
 
 .teamDetailsTable {
   width: auto;
+  border: 0;
 }
 
 .teamDetailsTable td {

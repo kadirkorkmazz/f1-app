@@ -1,0 +1,36 @@
+{
+  "generated_at": "2022-04-18T10:20:03+00:00",
+  "schema": "../../../schemas/competitor_profile.json",
+  "competitor": {
+    "id": "sr:competitor:269471",
+    "name": "Leclerc, Charles",
+    "gender": "male",
+    "nationality": "Monaco",
+    "country_code": "MCO"
+  },
+  "teams": [
+    {
+      "id": "sr:competitor:4510",
+      "name": "Ferrari",
+      "gender": "male",
+      "nationality": "Italy",
+      "country_code": "ITA"
+    }
+  ],
+  "info": {
+    "weight": "69",
+    "dateofbirth": "1997-10-16",
+    "country_of_residence": "Monaco",
+    "country_of_residence_id": "sr:country:141",
+    "country_code_of_residence": "MCO",
+    "height": "179",
+    "salary": "9000000",
+    "placeofbirth": "Monte Carlo",
+    "placeofbirth_id": "sr:city:246",
+    "debut": "2018-03-25",
+    "first_points": "2018-04-29",
+    "first_pole": "2019-03-30",
+    "first_victory": "2019-09-01",
+    "car_nickname": "Ferrari"
+  }
+}

@@ -4,20 +4,28 @@ import driverImages from '../../Helpers/imagesDatabase.json';
 import './Drivers.css';
 import DriverDetails from '../DriverDetails/DriverDetails';
 import { getDriverDataFromApi } from '../../Helpers/getDriverDataFromApi';
+import alternativeDriverInfo from '../../Helpers/alternativeDatas/DriverInfoData.json';
 
 function Drivers({ drivers }) {
   const [selectedDriver, setSelecterDriver] = useState('sr:competitor:269471');
   const [selectedDriverTeam, setSelectedDriverTeam] =
     useState('sr:competitor:4510');
   const [driverDetailPopupToggle, setDriverDetailPopupToggle] = useState(false);
-  const [driverDetail, setDriverDetail] = useState([]);
+  const [driverDetail, setDriverDetail] = useState(alternativeDriverInfo);
   const [isDriverDetailLoading, setIsDriverDetailLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await getDriverDataFromApi(selectedDriver);
-      setDriverDetail(data);
-      setIsDriverDetailLoading(false);
+      try {
+        const data = await getDriverDataFromApi(selectedDriver);
+        setDriverDetail(data);
+        setIsDriverDetailLoading(false);
+      } catch (error) {
+        setIsDriverDetailLoading(false);
+        console.log(
+          'Sorgu sınırı dolduğu için alternatif sürücü datası alındı.'
+        );
+      }
     };
 
     fetchData();

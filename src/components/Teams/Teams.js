@@ -5,18 +5,26 @@ import './Teams.css';
 import TeamDetails from '../TeamDetails/TeamDetails';
 import { getTeamDataFromApi } from '../../Helpers/getTeamDataFromApi';
 import { useState, useEffect } from 'react';
+import alternativeTeamData from '../../Helpers/alternativeDatas/TeamInfoData.json';
 
 function Teams({ teams }) {
   const [selectedTeam, setSelectedTeam] = useState('sr:competitor:41127');
   const [teamDetailPopupToggle, setTeamDetailPopupToggle] = useState(false);
-  const [teamDetail, setTeamDetail] = useState([]);
+  const [teamDetail, setTeamDetail] = useState(alternativeTeamData);
   const [isTeamDetailLoading, setIsTeamDetailLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
-      const data = await getTeamDataFromApi(selectedTeam);
-      setTeamDetail(data);
-      setIsTeamDetailLoading(false);
+      try {
+        const data = await getTeamDataFromApi(selectedTeam);
+        setTeamDetail(data);
+        setIsTeamDetailLoading(false);
+      } catch (error) {
+        setIsTeamDetailLoading(false);
+        console.log(
+          'Sorgu sınırı dolduğu için alternatif takım datası alındı.'
+        );
+      }
     };
 
     fetchData();

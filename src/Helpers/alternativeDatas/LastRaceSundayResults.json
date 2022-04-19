@@ -1,0 +1,1340 @@
+{
+  "generated_at": "2022-04-17T17:32:17+00:00",
+  "schema": "../../../schemas/summary.json",
+  "stage": {
+    "id": "sr:stage:937823",
+    "description": "Race",
+    "scheduled": "2022-04-10T05:00:00+00:00",
+    "scheduled_end": "2022-04-10T07:00:00+00:00",
+    "type": "race",
+    "status": "Closed",
+    "laps": 58,
+    "laps_completed": 58,
+    "air_temperature": 27,
+    "track_temperature": 33,
+    "humidity": 42,
+    "weather": "Sunny",
+    "substatus": "All laps completed",
+    "pit_open": true,
+    "single_event": false,
+    "parents": [
+      {
+        "id": "sr:stage:937745",
+        "description": "Australian Grand Prix 2022",
+        "scheduled": "2022-04-08T03:00:00+00:00",
+        "scheduled_end": "2022-04-10T07:00:00+00:00",
+        "type": "event",
+        "status": "Closed",
+        "single_event": false,
+        "venue": {
+          "id": "sr:venue:1011",
+          "name": "Melbourne Grand Prix Circuit",
+          "city": "Melbourne",
+          "country": "Australia",
+          "coordinates": "-37.840089,144.953527",
+          "country_code": "AUS",
+          "length": 5303,
+          "url_official": "http://www.grandprix.com.au",
+          "debut": 1996,
+          "curves_left": 6,
+          "curves_right": 10,
+          "laps": 58
+        },
+        "parents": [
+          {
+            "id": "sr:stage:937183",
+            "description": "Formula 1 2022",
+            "scheduled": "2022-03-18T12:00:00+00:00",
+            "scheduled_end": "2022-11-20T15:00:00+00:00",
+            "type": "season",
+            "single_event": false,
+            "parents": [
+              {
+                "id": "sr:stage:7668",
+                "description": "Formula 1",
+                "type": "sport",
+                "single_event": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "stages": [
+      {
+        "id": "sr:stage:937825",
+        "description": "Lap 1",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937827",
+        "description": "Lap 2",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937829",
+        "description": "Lap 3",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937831",
+        "description": "Lap 4",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937833",
+        "description": "Lap 5",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937835",
+        "description": "Lap 6",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937837",
+        "description": "Lap 7",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937839",
+        "description": "Lap 8",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937841",
+        "description": "Lap 9",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937843",
+        "description": "Lap 10",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937845",
+        "description": "Lap 11",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937847",
+        "description": "Lap 12",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937849",
+        "description": "Lap 13",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937851",
+        "description": "Lap 14",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937853",
+        "description": "Lap 15",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937855",
+        "description": "Lap 16",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937857",
+        "description": "Lap 17",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937859",
+        "description": "Lap 18",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937861",
+        "description": "Lap 19",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937863",
+        "description": "Lap 20",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937865",
+        "description": "Lap 21",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937867",
+        "description": "Lap 22",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937869",
+        "description": "Lap 23",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937871",
+        "description": "Lap 24",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937873",
+        "description": "Lap 25",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937875",
+        "description": "Lap 26",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937877",
+        "description": "Lap 27",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937879",
+        "description": "Lap 28",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937881",
+        "description": "Lap 29",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937883",
+        "description": "Lap 30",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937885",
+        "description": "Lap 31",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937887",
+        "description": "Lap 32",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937889",
+        "description": "Lap 33",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937891",
+        "description": "Lap 34",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937893",
+        "description": "Lap 35",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937895",
+        "description": "Lap 36",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937897",
+        "description": "Lap 37",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937899",
+        "description": "Lap 38",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937901",
+        "description": "Lap 39",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937903",
+        "description": "Lap 40",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937905",
+        "description": "Lap 41",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937907",
+        "description": "Lap 42",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937909",
+        "description": "Lap 43",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937911",
+        "description": "Lap 44",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937913",
+        "description": "Lap 45",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937915",
+        "description": "Lap 46",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937917",
+        "description": "Lap 47",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937919",
+        "description": "Lap 48",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937921",
+        "description": "Lap 49",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937923",
+        "description": "Lap 50",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937925",
+        "description": "Lap 51",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937927",
+        "description": "Lap 52",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937929",
+        "description": "Lap 53",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937931",
+        "description": "Lap 54",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937933",
+        "description": "Lap 55",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937935",
+        "description": "Lap 56",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937937",
+        "description": "Lap 57",
+        "type": "lap",
+        "single_event": false
+      },
+      {
+        "id": "sr:stage:937939",
+        "description": "Lap 58",
+        "type": "lap",
+        "single_event": false
+      }
+    ],
+    "competitors": [
+      {
+        "id": "sr:competitor:269471",
+        "name": "Leclerc, Charles",
+        "gender": "male",
+        "nationality": "Monaco",
+        "country_code": "MCO",
+        "team": {
+          "id": "sr:competitor:4510",
+          "name": "Ferrari",
+          "gender": "male",
+          "nationality": "Italy",
+          "country_code": "ITA"
+        },
+        "result": {
+          "points": 26,
+          "fastest_lap_time": "1:20.260",
+          "laps": 58,
+          "position": 1,
+          "grid": 1,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 16,
+          "time": "1:27:46.548"
+        }
+      },
+      {
+        "id": "sr:competitor:46337",
+        "name": "Perez, Sergio",
+        "gender": "male",
+        "nationality": "Mexico",
+        "country_code": "MEX",
+        "team": {
+          "id": "sr:competitor:4978",
+          "name": "Red Bull Racing",
+          "gender": "male",
+          "nationality": "Austria",
+          "country_code": "AUT"
+        },
+        "result": {
+          "points": 18,
+          "fastest_lap_time": "1:21.094",
+          "laps": 58,
+          "position": 2,
+          "grid": 3,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 11,
+          "time": "+20.524"
+        }
+      },
+      {
+        "id": "sr:competitor:391432",
+        "name": "Russell, George",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "team": {
+          "id": "sr:competitor:41127",
+          "name": "Mercedes",
+          "gender": "male",
+          "nationality": "Germany",
+          "country_code": "DEU"
+        },
+        "result": {
+          "points": 15,
+          "fastest_lap_time": "1:21.495",
+          "laps": 58,
+          "position": 3,
+          "grid": 6,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 63,
+          "time": "+25.593"
+        }
+      },
+      {
+        "id": "sr:competitor:7135",
+        "name": "Hamilton, Lewis",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "team": {
+          "id": "sr:competitor:41127",
+          "name": "Mercedes",
+          "gender": "male",
+          "nationality": "Germany",
+          "country_code": "DEU"
+        },
+        "result": {
+          "points": 12,
+          "fastest_lap_time": "1:21.886",
+          "laps": 58,
+          "position": 4,
+          "grid": 5,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 44,
+          "time": "+28.543"
+        }
+      },
+      {
+        "id": "sr:competitor:495898",
+        "name": "Norris, Lando",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "team": {
+          "id": "sr:competitor:4514",
+          "name": "McLaren",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "points": 10,
+          "fastest_lap_time": "1:22.248",
+          "laps": 58,
+          "position": 5,
+          "grid": 4,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 4,
+          "time": "+53.303"
+        }
+      },
+      {
+        "id": "sr:competitor:41603",
+        "name": "Ricciardo, Daniel",
+        "gender": "male",
+        "nationality": "Australia",
+        "country_code": "AUS",
+        "team": {
+          "id": "sr:competitor:4514",
+          "name": "McLaren",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "points": 8,
+          "fastest_lap_time": "1:22.451",
+          "laps": 58,
+          "position": 6,
+          "grid": 7,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 3,
+          "time": "+53.737"
+        }
+      },
+      {
+        "id": "sr:competitor:184751",
+        "name": "Ocon, Esteban",
+        "gender": "male",
+        "nationality": "France",
+        "country_code": "FRA",
+        "team": {
+          "id": "sr:competitor:4512",
+          "name": "Alpine F1 Team",
+          "gender": "male",
+          "nationality": "France",
+          "country_code": "FRA"
+        },
+        "result": {
+          "points": 6,
+          "fastest_lap_time": "1:22.469",
+          "laps": 58,
+          "position": 7,
+          "grid": 8,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 31,
+          "time": "+1:01.683"
+        }
+      },
+      {
+        "id": "sr:competitor:41600",
+        "name": "Bottas, Valtteri",
+        "gender": "male",
+        "nationality": "Finland",
+        "country_code": "FIN",
+        "team": {
+          "id": "sr:competitor:4515",
+          "name": "Alfa Romeo Racing",
+          "gender": "male",
+          "nationality": "Switzerland",
+          "country_code": "CHE"
+        },
+        "result": {
+          "points": 4,
+          "fastest_lap_time": "1:21.651",
+          "laps": 58,
+          "position": 8,
+          "grid": 12,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 77,
+          "time": "+1:08.439"
+        }
+      },
+      {
+        "id": "sr:competitor:381362",
+        "name": "Gasly, Pierre",
+        "gender": "male",
+        "nationality": "France",
+        "country_code": "FRA",
+        "team": {
+          "id": "sr:competitor:5771",
+          "name": "Alphatauri",
+          "gender": "male",
+          "nationality": "Italy",
+          "country_code": "ITA"
+        },
+        "result": {
+          "points": 2,
+          "fastest_lap_time": "1:22.731",
+          "laps": 58,
+          "position": 9,
+          "grid": 11,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 10,
+          "time": "+1:16.221"
+        }
+      },
+      {
+        "id": "sr:competitor:522994",
+        "name": "Albon, Alexander",
+        "gender": "male",
+        "nationality": "Thailand",
+        "country_code": "THA",
+        "team": {
+          "id": "sr:competitor:4511",
+          "name": "Williams",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "points": 1,
+          "fastest_lap_time": "1:22.589",
+          "laps": 58,
+          "position": 10,
+          "grid": 20,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 23,
+          "time": "+1:19.382"
+        }
+      },
+      {
+        "id": "sr:competitor:811508",
+        "name": "Zhou, Guanyu",
+        "gender": "male",
+        "nationality": "China",
+        "country_code": "CHN",
+        "team": {
+          "id": "sr:competitor:4515",
+          "name": "Alfa Romeo Racing",
+          "gender": "male",
+          "nationality": "Switzerland",
+          "country_code": "CHE"
+        },
+        "result": {
+          "fastest_lap_time": "1:22.541",
+          "laps": 58,
+          "position": 11,
+          "grid": 14,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 24,
+          "time": "+1:21.695"
+        }
+      },
+      {
+        "id": "sr:competitor:302866",
+        "name": "Stroll, Lance",
+        "gender": "male",
+        "nationality": "Canada",
+        "country_code": "CAN",
+        "team": {
+          "id": "sr:competitor:496090",
+          "name": "Aston Martin F1 Team",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "fastest_lap_time": "1:23.592",
+          "laps": 58,
+          "position": 12,
+          "grid": 19,
+          "pitstop_count": 3,
+          "status": "Finished",
+          "car_number": 18,
+          "time": "+1:28.598"
+        }
+      },
+      {
+        "id": "sr:competitor:568799",
+        "name": "Schumacher, Mick",
+        "gender": "male",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "team": {
+          "id": "sr:competitor:242902",
+          "name": "Haas F1 Team",
+          "gender": "male",
+          "nationality": "USA",
+          "country_code": "USA"
+        },
+        "result": {
+          "fastest_lap_time": "1:23.006",
+          "laps": 57,
+          "position": 13,
+          "grid": 15,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 47,
+          "time": "1l"
+        }
+      },
+      {
+        "id": "sr:competitor:135592",
+        "name": "Magnussen, Kevin",
+        "gender": "male",
+        "nationality": "Denmark",
+        "country_code": "DNK",
+        "team": {
+          "id": "sr:competitor:242902",
+          "name": "Haas F1 Team",
+          "gender": "male",
+          "nationality": "USA",
+          "country_code": "USA"
+        },
+        "result": {
+          "fastest_lap_time": "1:23.071",
+          "laps": 57,
+          "position": 14,
+          "grid": 16,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 20,
+          "time": "1l"
+        }
+      },
+      {
+        "id": "sr:competitor:764646",
+        "name": "Tsunoda, Yuki",
+        "gender": "male",
+        "nationality": "Japan",
+        "country_code": "JPN",
+        "team": {
+          "id": "sr:competitor:5771",
+          "name": "Alphatauri",
+          "gender": "male",
+          "nationality": "Italy",
+          "country_code": "ITA"
+        },
+        "result": {
+          "fastest_lap_time": "1:23.342",
+          "laps": 57,
+          "position": 15,
+          "grid": 13,
+          "pitstop_count": 1,
+          "status": "Finished",
+          "car_number": 22,
+          "time": "1l"
+        }
+      },
+      {
+        "id": "sr:competitor:447677",
+        "name": "Latifi, Nicholas",
+        "gender": "male",
+        "nationality": "Canada",
+        "country_code": "CAN",
+        "team": {
+          "id": "sr:competitor:4511",
+          "name": "Williams",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "fastest_lap_time": "1:23.882",
+          "laps": 57,
+          "position": 16,
+          "grid": 18,
+          "pitstop_count": 2,
+          "status": "Finished",
+          "car_number": 6,
+          "time": "1l"
+        }
+      },
+      {
+        "id": "sr:competitor:4521",
+        "name": "Alonso, Fernando",
+        "gender": "male",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "team": {
+          "id": "sr:competitor:4512",
+          "name": "Alpine F1 Team",
+          "gender": "male",
+          "nationality": "France",
+          "country_code": "FRA"
+        },
+        "result": {
+          "fastest_lap_time": "1:20.846",
+          "laps": 57,
+          "position": 17,
+          "grid": 10,
+          "pitstop_count": 2,
+          "status": "Finished",
+          "car_number": 14,
+          "time": "1l"
+        }
+      },
+      {
+        "id": "sr:competitor:178318",
+        "name": "Verstappen, Max",
+        "gender": "male",
+        "nationality": "Netherlands",
+        "country_code": "NLD",
+        "team": {
+          "id": "sr:competitor:4978",
+          "name": "Red Bull Racing",
+          "gender": "male",
+          "nationality": "Austria",
+          "country_code": "AUT"
+        },
+        "result": {
+          "fastest_lap_time": "1:21.677",
+          "laps": 38,
+          "position": 18,
+          "grid": 2,
+          "pitstop_count": 1,
+          "status": "Out",
+          "car_number": 1
+        }
+      },
+      {
+        "id": "sr:competitor:7610",
+        "name": "Vettel, Sebastian",
+        "gender": "male",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "team": {
+          "id": "sr:competitor:496090",
+          "name": "Aston Martin F1 Team",
+          "gender": "male",
+          "nationality": "Great Britain",
+          "country_code": "GBR"
+        },
+        "result": {
+          "fastest_lap_time": "1:25.189",
+          "laps": 22,
+          "position": 19,
+          "grid": 17,
+          "pitstop_count": 0,
+          "status": "Out",
+          "car_number": 5
+        }
+      },
+      {
+        "id": "sr:competitor:189029",
+        "name": "Sainz Jr, Carlos",
+        "gender": "male",
+        "nationality": "Spain",
+        "country_code": "ESP",
+        "team": {
+          "id": "sr:competitor:4510",
+          "name": "Ferrari",
+          "gender": "male",
+          "nationality": "Italy",
+          "country_code": "ITA"
+        },
+        "result": {
+          "laps": 1,
+          "position": 20,
+          "grid": 9,
+          "pitstop_count": 0,
+          "status": "Out",
+          "car_number": 55
+        }
+      }
+    ],
+    "teams": [
+      {
+        "id": "sr:competitor:4514",
+        "name": "McLaren",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "competitors": [
+          {
+            "id": "sr:competitor:41603",
+            "name": "Ricciardo, Daniel",
+            "gender": "male",
+            "nationality": "Australia",
+            "country_code": "AUS",
+            "result": {
+              "points": 8,
+              "fastest_lap_time": "1:22.451",
+              "laps": 58,
+              "position": 6,
+              "grid": 7,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 3,
+              "time": "+53.737"
+            }
+          },
+          {
+            "id": "sr:competitor:495898",
+            "name": "Norris, Lando",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+              "points": 10,
+              "fastest_lap_time": "1:22.248",
+              "laps": 58,
+              "position": 5,
+              "grid": 4,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 4,
+              "time": "+53.303"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:4515",
+        "name": "Alfa Romeo Racing",
+        "gender": "male",
+        "nationality": "Switzerland",
+        "country_code": "CHE",
+        "competitors": [
+          {
+            "id": "sr:competitor:811508",
+            "name": "Zhou, Guanyu",
+            "gender": "male",
+            "nationality": "China",
+            "country_code": "CHN",
+            "result": {
+              "fastest_lap_time": "1:22.541",
+              "laps": 58,
+              "position": 11,
+              "grid": 14,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 24,
+              "time": "+1:21.695"
+            }
+          },
+          {
+            "id": "sr:competitor:41600",
+            "name": "Bottas, Valtteri",
+            "gender": "male",
+            "nationality": "Finland",
+            "country_code": "FIN",
+            "result": {
+              "points": 4,
+              "fastest_lap_time": "1:21.651",
+              "laps": 58,
+              "position": 8,
+              "grid": 12,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 77,
+              "time": "+1:08.439"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:41127",
+        "name": "Mercedes",
+        "gender": "male",
+        "nationality": "Germany",
+        "country_code": "DEU",
+        "competitors": [
+          {
+            "id": "sr:competitor:391432",
+            "name": "Russell, George",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+              "points": 15,
+              "fastest_lap_time": "1:21.495",
+              "laps": 58,
+              "position": 3,
+              "grid": 6,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 63,
+              "time": "+25.593"
+            }
+          },
+          {
+            "id": "sr:competitor:7135",
+            "name": "Hamilton, Lewis",
+            "gender": "male",
+            "nationality": "Great Britain",
+            "country_code": "GBR",
+            "result": {
+              "points": 12,
+              "fastest_lap_time": "1:21.886",
+              "laps": 58,
+              "position": 4,
+              "grid": 5,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 44,
+              "time": "+28.543"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:4978",
+        "name": "Red Bull Racing",
+        "gender": "male",
+        "nationality": "Austria",
+        "country_code": "AUT",
+        "competitors": [
+          {
+            "id": "sr:competitor:178318",
+            "name": "Verstappen, Max",
+            "gender": "male",
+            "nationality": "Netherlands",
+            "country_code": "NLD",
+            "result": {
+              "fastest_lap_time": "1:21.677",
+              "laps": 38,
+              "position": 18,
+              "grid": 2,
+              "pitstop_count": 1,
+              "status": "Out",
+              "car_number": 1
+            }
+          },
+          {
+            "id": "sr:competitor:46337",
+            "name": "Perez, Sergio",
+            "gender": "male",
+            "nationality": "Mexico",
+            "country_code": "MEX",
+            "result": {
+              "points": 18,
+              "fastest_lap_time": "1:21.094",
+              "laps": 58,
+              "position": 2,
+              "grid": 3,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 11,
+              "time": "+20.524"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:5771",
+        "name": "Alphatauri",
+        "gender": "male",
+        "nationality": "Italy",
+        "country_code": "ITA",
+        "competitors": [
+          {
+            "id": "sr:competitor:381362",
+            "name": "Gasly, Pierre",
+            "gender": "male",
+            "nationality": "France",
+            "country_code": "FRA",
+            "result": {
+              "points": 2,
+              "fastest_lap_time": "1:22.731",
+              "laps": 58,
+              "position": 9,
+              "grid": 11,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 10,
+              "time": "+1:16.221"
+            }
+          },
+          {
+            "id": "sr:competitor:764646",
+            "name": "Tsunoda, Yuki",
+            "gender": "male",
+            "nationality": "Japan",
+            "country_code": "JPN",
+            "result": {
+              "fastest_lap_time": "1:23.342",
+              "laps": 57,
+              "position": 15,
+              "grid": 13,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 22,
+              "time": "1l"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:242902",
+        "name": "Haas F1 Team",
+        "gender": "male",
+        "nationality": "USA",
+        "country_code": "USA",
+        "competitors": [
+          {
+            "id": "sr:competitor:135592",
+            "name": "Magnussen, Kevin",
+            "gender": "male",
+            "nationality": "Denmark",
+            "country_code": "DNK",
+            "result": {
+              "fastest_lap_time": "1:23.071",
+              "laps": 57,
+              "position": 14,
+              "grid": 16,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 20,
+              "time": "1l"
+            }
+          },
+          {
+            "id": "sr:competitor:568799",
+            "name": "Schumacher, Mick",
+            "gender": "male",
+            "nationality": "Germany",
+            "country_code": "DEU",
+            "result": {
+              "fastest_lap_time": "1:23.006",
+              "laps": 57,
+              "position": 13,
+              "grid": 15,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 47,
+              "time": "1l"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:4510",
+        "name": "Ferrari",
+        "gender": "male",
+        "nationality": "Italy",
+        "country_code": "ITA",
+        "competitors": [
+          {
+            "id": "sr:competitor:189029",
+            "name": "Sainz Jr, Carlos",
+            "gender": "male",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "result": {
+              "laps": 1,
+              "position": 20,
+              "grid": 9,
+              "pitstop_count": 0,
+              "status": "Out",
+              "car_number": 55
+            }
+          },
+          {
+            "id": "sr:competitor:269471",
+            "name": "Leclerc, Charles",
+            "gender": "male",
+            "nationality": "Monaco",
+            "country_code": "MCO",
+            "result": {
+              "points": 26,
+              "fastest_lap_time": "1:20.260",
+              "laps": 58,
+              "position": 1,
+              "grid": 1,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 16,
+              "time": "1:27:46.548"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:4511",
+        "name": "Williams",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "competitors": [
+          {
+            "id": "sr:competitor:522994",
+            "name": "Albon, Alexander",
+            "gender": "male",
+            "nationality": "Thailand",
+            "country_code": "THA",
+            "result": {
+              "points": 1,
+              "fastest_lap_time": "1:22.589",
+              "laps": 58,
+              "position": 10,
+              "grid": 20,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 23,
+              "time": "+1:19.382"
+            }
+          },
+          {
+            "id": "sr:competitor:447677",
+            "name": "Latifi, Nicholas",
+            "gender": "male",
+            "nationality": "Canada",
+            "country_code": "CAN",
+            "result": {
+              "fastest_lap_time": "1:23.882",
+              "laps": 57,
+              "position": 16,
+              "grid": 18,
+              "pitstop_count": 2,
+              "status": "Finished",
+              "car_number": 6,
+              "time": "1l"
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:496090",
+        "name": "Aston Martin F1 Team",
+        "gender": "male",
+        "nationality": "Great Britain",
+        "country_code": "GBR",
+        "competitors": [
+          {
+            "id": "sr:competitor:302866",
+            "name": "Stroll, Lance",
+            "gender": "male",
+            "nationality": "Canada",
+            "country_code": "CAN",
+            "result": {
+              "fastest_lap_time": "1:23.592",
+              "laps": 58,
+              "position": 12,
+              "grid": 19,
+              "pitstop_count": 3,
+              "status": "Finished",
+              "car_number": 18,
+              "time": "+1:28.598"
+            }
+          },
+          {
+            "id": "sr:competitor:7610",
+            "name": "Vettel, Sebastian",
+            "gender": "male",
+            "nationality": "Germany",
+            "country_code": "DEU",
+            "result": {
+              "fastest_lap_time": "1:25.189",
+              "laps": 22,
+              "position": 19,
+              "grid": 17,
+              "pitstop_count": 0,
+              "status": "Out",
+              "car_number": 5
+            }
+          }
+        ]
+      },
+      {
+        "id": "sr:competitor:4512",
+        "name": "Alpine F1 Team",
+        "gender": "male",
+        "nationality": "France",
+        "country_code": "FRA",
+        "competitors": [
+          {
+            "id": "sr:competitor:4521",
+            "name": "Alonso, Fernando",
+            "gender": "male",
+            "nationality": "Spain",
+            "country_code": "ESP",
+            "result": {
+              "fastest_lap_time": "1:20.846",
+              "laps": 57,
+              "position": 17,
+              "grid": 10,
+              "pitstop_count": 2,
+              "status": "Finished",
+              "car_number": 14,
+              "time": "1l"
+            }
+          },
+          {
+            "id": "sr:competitor:184751",
+            "name": "Ocon, Esteban",
+            "gender": "male",
+            "nationality": "France",
+            "country_code": "FRA",
+            "result": {
+              "points": 6,
+              "fastest_lap_time": "1:22.469",
+              "laps": 58,
+              "position": 7,
+              "grid": 8,
+              "pitstop_count": 1,
+              "status": "Finished",
+              "car_number": 31,
+              "time": "+1:01.683"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

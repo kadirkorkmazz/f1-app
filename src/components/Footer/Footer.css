@@ -26,3 +26,8 @@
 .footer .footer-social a svg {
   color: white;
 }
+
+.footer .footer-social a svg:hover {
+  color: white;
+  font-size: 2.5rem;
+}

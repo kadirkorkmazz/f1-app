@@ -17,7 +17,6 @@ header {
   margin: 10px 0;
   align-items: center;
   justify-content: space-around;
-  width: 30%;
   margin-right: 50px;
 }
 
@@ -28,6 +27,7 @@ button {
   min-width: 150px;
   background-color: darkred;
   border: 0px;
+  margin: 2px;
 }
 
 .nav_link.active button {

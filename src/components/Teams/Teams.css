@@ -27,6 +27,10 @@
   border: 5px solid darkred;
   font-size: 1.25em;
 }
+#teamCards .card:hover {
+  border: 5px solid orange;
+  cursor: pointer;
+}
 
 .teamImage {
   width: 16rem;
@@ -52,7 +56,7 @@ p.card-text {
 h1 {
   text-align: center;
   color: #e03102;
-  text-shadow: 0.5px 0.5px white;
+  text-shadow: 0.4px 0.4px red;
 }
 
 p.teamPoints {

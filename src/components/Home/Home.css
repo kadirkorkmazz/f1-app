@@ -28,3 +28,17 @@
   width: 600px;
   height: 420px;
 }
+
+.latestResult {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.latestResult img {
+  max-width: 1230px;
+  border: 5px solid darkred;
+}
+
+.homeNav img:hover {
+  border: 5px solid orange;
+}
