@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import { Table } from 'react-bootstrap';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+import '../Standings/fixToReactSuperResponsiveTable.css';
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
 import './LastRaceResult.css';
 import alternativeSundayResult from '../../Helpers/alternativeDatas/LastRaceSundayResults.json';
 import { getSessionInfo } from '../../Helpers/getLastRaceResultDataFromApi';
@@ -27,35 +29,35 @@ function LastRaceResult() {
       <div className='standingsTable'>
         <h1>Australian Grand Prix 2022</h1>
 
-        <Table striped bordered hover>
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>DRIVER</th>
-              <th>TEAM</th>
-              <th>NATIONALITY</th>
-              <th>RACE RESULT</th>
-              <th>QUALI POSITION</th>
-              <th>POINTS</th>
-              <th>TIME</th>
-              <th>PIT STOPS</th>
-            </tr>
-          </thead>
-          <tbody>
+        <Table>
+          <Thead>
+            <Tr>
+              <Th>#</Th>
+              <Th>DRIVER</Th>
+              <Th>TEAM</Th>
+              <Th>NATIONALITY</Th>
+              <Th>RACE RESULT</Th>
+              <Th>QUALI POSITION</Th>
+              <Th>POINTS</Th>
+              <Th>TIME</Th>
+              <Th>PIT STOPS</Th>
+            </Tr>
+          </Thead>
+          <Tbody>
             {sundayResult.stage.competitors.map((driver) => (
-              <tr key={driver.id}>
-                <td>{driver.result.position}</td>
-                <td>{driver.name.toUpperCase()}</td>
-                <td>{driver.team.name.toUpperCase()}</td>
-                <td>{driver.nationality.toUpperCase()}</td>
-                <td>{driver.result.position}</td>
-                <td>{driver.result.grid}</td>
-                <td>{driver.result.points}</td>
-                <td>{driver.result.time}</td>
-                <td>{driver.result.pitstop_count}</td>
-              </tr>
+              <Tr key={driver.id}>
+                <Td>{driver.result.position}</Td>
+                <Td>{driver.name.toUpperCase()}</Td>
+                <Td>{driver.team.name.toUpperCase()}</Td>
+                <Td>{driver.nationality.toUpperCase()}</Td>
+                <Td>{driver.result.position}</Td>
+                <Td>{driver.result.grid}</Td>
+                <Td>{driver.result.points}</Td>
+                <Td>{driver.result.time}</Td>
+                <Td>{driver.result.pitstop_count}</Td>
+              </Tr>
             ))}
-          </tbody>
+          </Tbody>
         </Table>
         <div className='raceInfos'>
           <ul>

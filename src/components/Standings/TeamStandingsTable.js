@@ -1,42 +1,44 @@
 import React from 'react';
-import { Table } from 'react-bootstrap';
+import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
+import './fixToReactSuperResponsiveTable.css';
 import './standingsTable.css';
+import { Table, Thead, Tbody, Tr, Th, Td } from 'react-super-responsive-table';
 
 function StandingsTable({ teams }) {
   return (
     <div className='standingsTable'>
       <h1>2022 Team Standings</h1>
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>TEAM</th>
-            <th>NATIONALITY</th>
-            <th>VICTORIES</th>
-            <th>POLE POSITIONS</th>
-            <th>PODIUMS</th>
-            <th>FASTEST LAPS</th>
-            <th>POINTS</th>
-          </tr>
-        </thead>
-        <tbody>
+      <Table>
+        <Thead>
+          <Tr>
+            <Th>#</Th>
+            <Th>TEAM</Th>
+            <Th>NATIONALITY</Th>
+            <Th>VICTORIES</Th>
+            <Th>POLE POSITIONS</Th>
+            <Th>PODIUMS</Th>
+            <Th>FASTEST LAPS</Th>
+            <Th>POINTS</Th>
+          </Tr>
+        </Thead>
+        <Tbody>
           {teams.map((team) => (
-            <tr key={team.id}>
-              <td>{team.result.position}</td>
-              <td>{team.name.toUpperCase()}</td>
-              <td>{team.nationality.toUpperCase()}</td>
-              <td>{team.result.victories > 0 ? team.result.victories : 0}</td>
-              <td>
+            <Tr key={team.id}>
+              <Td>{team.result.position}</Td>
+              <Td>{team.name.toUpperCase()}</Td>
+              <Td>{team.nationality.toUpperCase()}</Td>
+              <Td>{team.result.victories > 0 ? team.result.victories : 0}</Td>
+              <Td>
                 {team.result.polepositions > 0 ? team.result.polepositions : 0}
-              </td>
-              <td>{team.result.podiums > 0 ? team.result.podiums : 0}</td>
-              <td>
+              </Td>
+              <Td>{team.result.podiums > 0 ? team.result.podiums : 0}</Td>
+              <Td>
                 {team.result.fastest_laps > 0 ? team.result.fastest_laps : 0}
-              </td>
-              <td>{team.result.points > 0 ? team.result.points : 0}</td>
-            </tr>
+              </Td>
+              <Td>{team.result.points > 0 ? team.result.points : 0}</Td>
+            </Tr>
           ))}
-        </tbody>
+        </Tbody>
       </Table>
     </div>
   );

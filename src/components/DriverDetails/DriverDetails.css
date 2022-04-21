@@ -95,3 +95,12 @@
   font-weight: bolder;
   border: 5px darkred solid;
 }
+
+@media only screen and (max-width: 600px) {
+  .DetailsCardLeftSide {
+    width: 95vw;
+  }
+  .DetailsCardRightSide {
+    width: 95vw;
+  }
+}

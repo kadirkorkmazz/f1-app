@@ -1,3 +1,8 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .bannerImgFrame {
   display: flex;
   justify-content: center;
@@ -5,7 +10,7 @@
 }
 
 .bannerImgFrame img {
-  max-width: 1230px;
+  max-width: 90vw;
   border: 5px solid darkred;
 }
 
@@ -26,7 +31,6 @@
 .navi-img img {
   border: 5px solid darkred;
   width: 600px;
-  height: 420px;
 }
 
 .latestResult {
@@ -35,10 +39,20 @@
   margin-top: 30px;
 }
 .latestResult img {
-  max-width: 1230px;
+  max-width: 90vw;
   border: 5px solid darkred;
 }
 
 .homeNav img:hover {
   border: 5px solid orange;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-menu {
+    max-width: 90vw;
+  }
+
+  .navi-img img {
+    max-width: 90vw;
+  }
 }

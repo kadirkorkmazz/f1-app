@@ -5,6 +5,7 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: 'Titillium Web', sans-serif;
+  width: 100%;
 }
 
 .f1logo {
@@ -20,8 +21,7 @@ header {
   margin-right: 50px;
 }
 
-.nav,
-button {
+.nav_link > button {
   color: whitesmoke;
   height: 3em;
   min-width: 150px;
@@ -37,4 +37,75 @@ button {
 .nav_link button:hover {
   background-color: firebrick;
   color: whitesmoke;
+}
+
+.logoAndMenuButtonArea {
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerMenuSwitch {
+  display: none;
+}
+
+.headerMenuSwitch:hover {
+  background-color: firebrick;
+}
+@media only screen and (max-width: 991px) {
+  .f1logo img {
+    width: 100px;
+  }
+  .navi a button {
+    min-width: 1px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .navi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+    display: none;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerMenuSwitch {
+    display: block;
+    margin-right: 20px;
+    color: whitesmoke;
+    height: 3em;
+    min-width: 75px;
+    background-color: darkred;
+    border: 0px;
+  }
+  .logoAndMenuButtonArea {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logoAndMenuButtonArea a {
+    margin: 0px;
+  }
+  .show {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .navi {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .navi {
+    margin-right: 50px;
+  }
 }
