@@ -19,13 +19,12 @@ function Drivers({ drivers }) {
       try {
         const data = await getDriverDataFromApi(selectedDriver);
         setDriverDetail(data);
-        setIsDriverDetailLoading(false);
       } catch (error) {
-        setIsDriverDetailLoading(false);
         console.log(
           'Sorgu sınırı dolduğu için alternatif sürücü datası alındı.'
         );
       }
+      setIsDriverDetailLoading(false);
     };
 
     fetchData();
